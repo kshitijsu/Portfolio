@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)https://croppola.com/ -->
+<html lang="en" class="gr__croppola_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link href="https://croppola.com/favicon.png" rel="icon" type="image/png">
+	<link href="https://croppola.com/touch-icon-192x192.png" rel="icon" sizes="192x192">
+	<link href="./profilepic_files/main.css" rel="stylesheet" type="text/css">
+
+	<title>Croppola - online photo cropping</title>
+	<meta content="width=device-width" name="viewport">
+	<meta content="A free online photo cropping tool that analyzes your photo to suggest the best crop." name="description">
+	<meta content="aspect ratio, automatic, beautiful, composition, crop, cropper, cropping, cut, cutting, easy, gif, image, intelligent, jpeg, jpg, online, photo, picture, png, resize, shrink, simple, snapshot, suggestion, webp" name="keywords">
+</head>
+<body onmouseup="event.stopPropagation(); stopDragging(event); return false" onclick="hideDominantColors()" onkeypress="return keyPressed(event)" data-gr-c-s-loaded="true" class="vsc-initialized">
+
+<div id="smallScreen" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%">
+	<div style="background: #444; color: white; font-size: 18px; font-weight: bold; padding: 20px 10px">
+		<img src="./profilepic_files/LogoBottom.png" alt="Croppola" style="float: left; margin-right: 20px; width: 45px"> Please use croppola on your laptop or desktop computer.
+	</div>
+	<div style="margin-top: 40px; padding: 20px 10px">
+		<div style="color: #444444; font-size: 30px; margin-bottom: 20px">Croppola crops your photos <b style="font-weight: 900">intelligently</b>.</div>
+		<div style="color: #444444; font-size: 20px">Croppola analyzes the composition of your picture and <b style="font-weight: 900">calculates the best crop</b>. Just drop a photo, select the desired aspect ratio, and watch croppola do its magic!</div>
+	</div>
+	<div style="margin-top: 20px; text-align: center"><img alt="Intelligent cropping with Croppola" src="./profilepic_files/SketchCropping.png" style="height: 145px; max-width: 100%"></div>
+	<div class="whitebox" style="margin-top: 40px">
+		<div style="padding: 20px 10px 10px 10px">
+			<h3 style="color: #0576b2">Change the aspect ratio of a photo</h3>
+			<p>You have a portrait photo, and want a nice 4:3 landscape crop for your latest presentation slides. Croppola will find a well-balanced part with the desired aspect ratio within your picture - quickly and painlessly.</p>
+		</div>
+		<img alt="Change aspect ratio" src="./profilepic_files/ChangeAspectRatio.png" style="vertical-align: middle; width: 100%">
+	</div>
+	<div class="whitebox" style="margin-top: 40px">
+		<div style="padding: 20px 10px 10px 10px">
+			<h3 style="color: #ffa000">Enhance your holiday pictures or snapshots</h3>
+			<p>You took snapshots of your kids playing on the beach, and want to improve the framing. Croppola will analyze your photos and suggest well-balanced crops.</p>
+		</div>
+		<img alt="Enhance your holiday pictures" src="./profilepic_files/HolidayPictures.png" style="vertical-align: middle; width: 100%" width="540">
+	</div>
+	<div class="whitebox" style="margin-top: 40px">
+		<div style="padding: 20px 10px 0 10px">
+			<h3 style="color: #ff3200">Prepare photos for your photobook, calendar, or wallpaper</h3>
+			<p>You are creating a calendar. Let croppola choose a nice crop for you.</p>
+			<img alt="Create a calendar" src="./profilepic_files/CreateCalendar.png" style="margin-top: 10px; vertical-align: middle; width: 100%" width="500">
+		</div>
+	</div>
+	<div class="whitebox" style="margin-top: 40px">
+		<div style="padding: 20px 10px 10px 10px">
+			<h3 style="color: #9d0780">Experiment with image composition</h3>
+			<p>You took a great shot and are looking for a perfectly balanced composition. Let croppola make suggestions, and fine-tune manually.</p>
+		</div>
+		<img alt="Experiment with image composition" src="./profilepic_files/Experiment.png" style="vertical-align: middle; width: 100%" width="540">
+	</div>
+
+	<div style="color: #444444; font-size: 20px; margin: 40px 10px">Your smartphone screen is too small for croppola. Please try croppola on your laptop or desktop computer!</div>
+
+	<div class="footer" style="background-color: #333333; padding: 20px 10px">
+		<table>
+			<tbody><tr>
+				<td style="vertical-align: top"><img src="./profilepic_files/LogoBottom.png" alt="Croppola" style="margin-right: 10px; width: 30px"></td>
+				<td style="vertical-align: top">
+					<p>EPFL/IC/IVRG, Croppola<br>Station 14<br>1015 Lausanne<br>Switzerland</p>
+					<p><a href="mailto:info@croppola.com">info@croppola.com</a></p>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+</div>
+
+<div id="largeScreen">
+
+<div style="background-color: #ffffff; border-bottom: 1px solid #e8e8e8; height: 160px; width: 100%">
+	<div style="margin: 0 auto; width: 1100px">
+		<div style="float: right; margin-top: 25px; text-align: right">
+			<div class="headItems" style="font-size: 12px; height: 76px">
+				<a class="selected" href="https://croppola.com/">Online cropping</a>
+				<a class="" href="https://croppola.com/faq/">FAQ</a>
+				<a class="" href="https://croppola.com/about/">About Croppola</a>
+				<a class="selected" href="https://croppola.com/" style="margin-left: 20px">English</a>
+				<a class="" href="https://croppola.com/de/">Deutsch</a></div>
+		</div>
+		<a href="https://croppola.com/"><img alt="Croppola logo" src="./profilepic_files/LogoTop.png" style="margin-left: 24px; margin-top: 61px" width="245"></a>
+	</div>
+</div>
+
+<div id="imageArea" style="margin: 50px auto; position: relative; width: 740px; padding: 0px;">
+	<div id="advertising" style="font-size: 12px; left: -220px; position: absolute; top: 0px; width: 200px; visibility: hidden;">
+
+		<div style="background-color: rgba(108, 70, 0, 0.08); border-left: 4px solid white; border-radius: 3px; box-shadow: -1px 0 1px #cccccc; color: rgb(108, 70, 0); margin-top: 250px; padding: 10px 20px 10px 12px; position: relative; width: 190px">
+			<p style="margin-top: 0"><b>HOW IT WORKS</b></p>
+			<table class="ol">
+				<tbody><tr>
+					<td>1.</td>
+					<td onclick="document.getElementById(&#39;fileSelector&#39;).click();">Upload your photo.</td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>Let croppola calculate a nice crop for you, or crop manually.</td>
+				</tr>
+				<tr>
+					<td>3.</td>
+					<td>Download your crop.</td>
+				</tr>
+			</tbody></table>
+		</div>
+
+	</div>
+	<div id="exampleImages" style="color: rgb(68, 68, 68); font-size: 12px; left: 660px; position: absolute; text-align: center; top: 60px; width: 110px; visibility: hidden;">
+		<p style="margin-bottom: 20px">New to croppola?<br>Try with one of<br>these photos:</p>
+		<img alt="Example: Cock.jpg" onmousedown="switchToToken(&#39;example-cock&#39;, &#39;Cock.jpg&#39;)" src="./profilepic_files/image.jpg" style="-webkit-transform: rotate(-9deg); border: 4px solid white; box-shadow: 0 0 2px #cccccc; cursor: pointer; margin-bottom: -10px; transform: rotate(-9deg)" width="75">
+		<img alt="Example: Bird.jpg" onmousedown="switchToToken(&#39;example-bird2&#39;, &#39;Bird.jpg&#39;)" src="./profilepic_files/image(1).jpg" style="-webkit-transform: rotate(9deg); border: 4px solid white; box-shadow: 0 0 2px #cccccc; cursor: pointer; margin-bottom: -10px; transform: rotate(9deg)" width="75">
+		<img alt="Example: Flower.jpg" onmousedown="switchToToken(&#39;example-flower&#39;, &#39;Flower.jpg&#39;)" src="./profilepic_files/image(2).jpg" style="-webkit-transform: rotate(-9deg); border: 4px solid white; box-shadow: 0 0 2px #cccccc; cursor: pointer; margin-bottom: -10px; transform: rotate(-9deg)" width="75">
+	</div>
+	<div id="viewOptions" style="position: absolute; visibility: visible; width: 600px; left: 20px; top: 643px;">
+		<img alt="Hide image" id="viewHideImage" onclick="toggleHideImage()" src="./profilepic_files/HideImage.png" style="cursor: pointer; margin-right: 3px; opacity: 0.5; width: 13px" title="Hide image (show crop only)">
+		<img alt="Black frame" id="viewBlackFrame" onclick="toggleBlackFrame()" src="./profilepic_files/BlackFrame.png" style="cursor: pointer; margin-right: 13px; opacity: 0.5; width: 13px" title="Black frame (instead of white)">
+		<img alt="4x4 grid" id="viewGrid44" onclick="toggleGrid(&#39;44&#39;)" src="./profilepic_files/Grid44.png" style="cursor: pointer; margin-right: 3px; opacity: 0.5; width: 13px" title="4x4 grid">
+		<img alt="3x3 grid" id="viewGrid33" onclick="toggleGrid(&#39;33&#39;)" src="./profilepic_files/Grid33.png" style="cursor: pointer; margin-right: 3px; opacity: 0.5; width: 13px" title="3x3 grid">
+		<img alt="Golden ratio grid" id="viewGridGolden" onclick="toggleGrid(&#39;golden&#39;)" src="./profilepic_files/GridGolden.png" style="cursor: pointer; margin-right: 3px; opacity: 0.5; width: 13px" title="Golden ratio grid">
+	</div>
+	<div id="dominantColors" style="position: absolute; text-align: right; visibility: visible; width: 160px; right: 270px; top: 643px;">
+
+		<span id="dominantColorList" onclick="toggleDominantColors(); event.stopPropagation()" style="cursor: pointer"><span title="33%, #c1b4a3, rgb(193, 180, 163)" style="width: 49px; background-color: rgb(193, 180, 163);"></span><span title="26%, #ac997b, rgb(172, 153, 123)" style="width: 39px; background-color: rgb(172, 153, 123);"></span><span title="17%, #e5e9ec, rgb(229, 233, 236)" style="width: 26px; background-color: rgb(229, 233, 236);"></span><span title="15%, #917e64, rgb(145, 126, 100)" style="width: 22px; background-color: rgb(145, 126, 100);"></span><span title="6%, #181817, rgb(24, 24, 23)" style="width: 9px; background-color: rgb(24, 24, 23);"></span><span title="3%, #5f5145, rgb(95, 81, 69)" style="width: 5px; background-color: rgb(95, 81, 69);"></span></span>
+		<div id="dominantColorDetails" onclick="event.stopPropagation()" style="background: white; border-radius: 3px; box-shadow: 0 0 5px #999; padding: 10px 10px; position: absolute; right: -20px; top: 20px; visibility: hidden; z-index: 1">
+			<table id="dominantColorTable"><tr><td style="background-color: rgb(193, 180, 163);"></td><td>33%</td><td>#c1b4a3</td><td>rgb(193, 180, 163)</td></tr><tr><td style="background-color: rgb(172, 153, 123);"></td><td>26%</td><td>#ac997b</td><td>rgb(172, 153, 123)</td></tr><tr><td style="background-color: rgb(229, 233, 236);"></td><td>17%</td><td>#e5e9ec</td><td>rgb(229, 233, 236)</td></tr><tr><td style="background-color: rgb(145, 126, 100);"></td><td>15%</td><td>#917e64</td><td>rgb(145, 126, 100)</td></tr><tr><td style="background-color: rgb(24, 24, 23);"></td><td>6%</td><td>#181817</td><td>rgb(24, 24, 23)</td></tr><tr><td style="background-color: rgb(95, 81, 69);"></td><td>3%</td><td>#5f5145</td><td>rgb(95, 81, 69)</td></tr></table>
+		</div>
+	</div>
+	<div id="imageFrame" ondragleave="dragLeaveHandler(event)" ondragover="dragOverHandler(event)" ondrop="dropHandler(event)" onmousedown="event.stopPropagation(); startDragging(event); return false" onmousemove="event.stopPropagation(); onDragging(event); return false" onmouseup="event.stopPropagation(); stopDragging(event); return false" style="background-color: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); border-radius: 5px; box-shadow: rgb(153, 153, 153) 0px 1px 10px; height: 640px; position: relative; width: 490px;">
+		<div id="cropFrameLeft" style="background-color: black; height: 600px; left: 20px; opacity: 0.5; position: absolute; visibility: visible; width: 75px; top: 20px;"></div>
+		<div id="cropFrameRight" style="background-color: black; height: 600px; left: 415px; opacity: 0.5; position: absolute; visibility: visible; width: 55px; top: 20px;"></div>
+		<div id="cropFrameTop" style="background-color: black; height: 112px; left: 95px; opacity: 0.5; position: absolute; visibility: visible; width: 320px; top: 20px;"></div>
+		<div id="cropFrameBottom" style="background-color: black; height: 168px; left: 95px; opacity: 0.5; position: absolute; visibility: visible; width: 320px; top: 452px;"></div>
+		<div id="cropGridHorizontal0" style="background-color: white; height: 1px; opacity: 0.5; position: absolute; visibility: hidden; width: 20px"></div>
+		<div id="cropGridHorizontal1" style="background-color: white; height: 1px; opacity: 0.5; position: absolute; visibility: hidden; width: 20px"></div>
+		<div id="cropGridHorizontal2" style="background-color: white; height: 1px; opacity: 0.5; position: absolute; visibility: hidden; width: 20px"></div>
+		<div id="cropGridVertical0" style="background-color: white; height: 20px; opacity: 0.5; position: absolute; visibility: hidden; width: 1px"></div>
+		<div id="cropGridVertical1" style="background-color: white; height: 20px; opacity: 0.5; position: absolute; visibility: hidden; width: 1px"></div>
+		<div id="cropGridVertical2" style="background-color: white; height: 20px; opacity: 0.5; position: absolute; visibility: hidden; width: 1px"></div>
+		<div id="cropFrame" style="border: 10px solid white; box-shadow: rgb(68, 68, 68) 0px 0px 5px; height: 300px; left: 95px; opacity: 0.8; position: absolute; visibility: visible; width: 300px; top: 132px;"></div>
+		<div id="horizontalIndicator" style="background-color: rgb(255, 0, 0); height: 1px; left: 110px; position: absolute; visibility: hidden; width: 290px; top: 292px;"></div>
+		<div id="verticalIndicator" style="background-color: rgb(255, 0, 0); height: 290px; left: 255px; position: absolute; visibility: visible; width: 1px; top: 147px;"></div>
+		<div id="faceRectangles"></div>
+		<div id="cropMessage" style="background-color: rgb(255, 229, 185); border: 1px solid rgb(255, 160, 0); box-shadow: rgb(68, 68, 68) 0px 0px 5px; font-size: 12px; left: 50px; padding: 5px 20px; position: absolute; top: 50px; visibility: hidden;">Calculating crop ...</div>
+		
+	<img src="blob:https://croppola.com/7fdc100e-9392-429e-8d83-955726850844" width="450" height="600" style="margin: 20px;"></div>
+	<div id="toolBoxTop" style="color: rgb(68, 68, 68); position: absolute; right: 0px; top: 0px; visibility: visible; width: 220px;">
+		<p id="fileInfoName" style="margin-bottom: 0; font-weight:900">profilepic.jpeg</p>
+		<p id="fileInfoSize" style="margin: 0">3000x4000</p>
+		<p onclick="document.getElementById(&#39;fileSelector&#39;).click();" style="color: #0576b2; cursor: pointer; font-size: 12px; margin-top: 0; text-decoration: underline">Choose another file ...</p>
+		<div id="uploadProgressBar" style="border-bottom: 1px solid rgb(255, 255, 255); border-radius: 3px; border-top: 1px solid rgb(204, 204, 204); display: none; font-size: 13px; height: 10px; margin-top: 4px; position: relative; width: 220px;" title="Calculating crop ...">
+			<div id="uploadProgressRectangle" style="background-color: rgb(5, 118, 178); border-radius: 3px; height: 10px; left: 0px; position: absolute; top: 0px; width: 200px;"></div>
+		</div>
+		<p style="margin-top: 20px"><b style="font-weight: 900">Crop</b><br><span id="cropDimensions">2000x2000 (at 566, 814)</span> <img id="scalingButton" onclick="toggleScaling()" src="./profilepic_files/ScalingButton.png" style="cursor: pointer; margin-left: 5px; opacity: 0.3; width: 12px" title="Scale the cropped image"></p>
+		<div id="scalingPanel" style="background-color: #444444; border-radius: 5px; color: white; display: none; font-size: 10px; padding: 8px 10px">
+			Scale to <input id="scaledWidthInput" onkeyup="setScaling(&#39;width&#39;, this.value)" style="background: none; border: none; color: white; text-align: center; width: 50px"> x <input id="scaledHeightInput" onkeyup="setScaling(&#39;height&#39;, this.value)" style="background: none; border: none; color: white; text-align: center; width: 50px"> pixels
+		</div>
+		<p style="margin-top: 15px">
+			<a class="downloadButton" id="downloadButton" style="display: inline;" href="https://croppola.com/croppola/e973c6619960e4f20e15/download/profilepic%20Cropped.jpg?x=566&amp;y=814&amp;width=2000&amp;height=2000&amp;info=manual&amp;localId=ab6d5b705286&amp;derivedFromX=193&amp;derivedFromY=1027&amp;derivedFromWidth=2400&amp;derivedFromHeight=2400&amp;derivedFromAlgorithm=croppola">Download this crop</a>
+			<span class="downloadButtonDisabled" id="downloadButtonDisabled" onclick="alert(&#39;Please wait until the picture has finished uploading.&#39;)" style="display: none;">Download this crop</span>
+		</p>
+		<p style="display: none; margin-top: 20px">
+			<span class="downloadButton" id="orderButton" onclick="orderPrint()" style="font-size: 14px; padding: 4px 12px; display: inline;" title="Order a canvas, mug, T-shirt, ... with this crop">Order printed</span>
+			<span class="downloadButtonDisabled" id="orderButtonDisabled" onclick="alert(&#39;Please wait until the picture has finished uploading.&#39;)" style="display: none;">Order printed</span>
+		</p>
+	</div>
+	<div id="toolBoxBottom" style="bottom: 0px; position: absolute; right: 0px; visibility: visible; width: 220px;">
+		<div id="buttonAutomatic" onclick="switchToAutomatic()" style="background-color: rgb(204, 204, 204); border-radius: 5px; color: rgb(68, 68, 68); cursor: pointer; float: left; margin-bottom: 10px; padding: 5px; text-align: center; width: 95px;">Auto</div>
+		<div id="buttonManual" onclick="switchToManual(false)" style="background-color: rgb(68, 68, 68); border-radius: 5px; color: rgb(255, 255, 255); cursor: pointer; float: right; margin-bottom: 10px; padding: 5px; text-align: center; width: 95px;">Manual</div>
+		<div style="clear: both"></div>
+		<div id="configurationManual" style="background-color: rgb(68, 68, 68); border-radius: 5px; color: white; display: block; padding: 10px; width: 200px;">
+			<table>
+				<tbody><tr>
+					<td style="font-size: 10px; vertical-align: baseline; width: 40px">left</td>
+					<td contenteditable="true" id="manualLeft" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showHorizontalDistance(0, 1)" oninput="updateManualLeft()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">566</td>
+					<td style="width: 10px"></td>
+					<td style="font-size: 10px; vertical-align: baseline; width: 40px">top</td>
+					<td contenteditable="true" id="manualTop" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showVerticalDistance(0, 1)" oninput="updateManualTop()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">814</td>
+				</tr>
+				<tr>
+					<td style="font-size: 10px; vertical-align: baseline; width: 40px">width</td>
+					<td contenteditable="true" id="manualWidth" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showHorizontalDistance(1, 2)" oninput="updateManualWidth()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">2000</td>
+					<td style="width: 10px"></td>
+					<td style="font-size: 10px; vertical-align: baseline; width: 40px">height</td>
+					<td contenteditable="true" id="manualHeight" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showVerticalDistance(1, 2)" oninput="updateManualHeight()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">2000</td>
+				</tr>
+				<tr>
+					<td style="font-size: 10px; vertical-align: baseline; width: 40px">right</td>
+					<td contenteditable="true" id="manualRight" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showHorizontalDistance(2, 3)" oninput="updateManualRight()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">434</td>
+					<td style="width: 10px"></td>
+					<td style="font-size: 10px; vertical-align: baseline; width: 40px">bottom</td>
+					<td contenteditable="true" id="manualBottom" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showVerticalDistance(2, 3)" oninput="updateManualBottom()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">1186</td>
+				</tr>
+			</tbody></table>
+			<div style="border-top: 1px solid #cccccc; margin-top: 5px; padding-top: 5px">
+				<table>
+					<tbody><tr>
+						<td style="font-size: 10px; vertical-align: baseline; width: 70px">Aspect ratio</td>
+						<td contenteditable="true" id="manualAspectRatio" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showHorizontalDistance(1, 2); showVerticalDistance(1, 2)" oninput="updateManualAspectRatio()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 100px">1 : 1</td>
+						<td rowspan="2" style="text-align: center; vertical-align: middle; width: 30px"><img alt="Toggle crop orientation" id="manualAspectRatioPortrait" onclick="toggleManualAspectRatioRotation()" src="./profilepic_files/AspectRatioPortraitBig.png" style="cursor: pointer; vertical-align: middle; width: 24px; display: none;" title="Toggle crop orientation"><img alt="Toggle crop orientation" id="manualAspectRatioLandscape" onclick="toggleManualAspectRatioRotation()" src="./profilepic_files/AspectRatioLandscapeBig.png" style="cursor: pointer; vertical-align: middle; width: 24px; display: none;" title="Toggle crop orientation"></td>
+					</tr>
+					<tr>
+						<td style="font-size: 10px; vertical-align: baseline; width: 70px">Crop size</td>
+						<td contenteditable="true" id="manualCropSize" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showHorizontalDistance(1, 2); showVerticalDistance(1, 2)" oninput="updateManualCropSize()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 100px">4 MP</td>
+					</tr>
+				</tbody></table>
+			</div>
+			<div style="border-top: 1px solid #cccccc; margin-top: 5px; padding-top: 5px">
+				<table>
+					<tbody><tr>
+						<td style="font-size: 10px; vertical-align: baseline; width: 40px">x<sub>0</sub></td>
+						<td contenteditable="true" id="manualX0" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showHorizontalPosition(1)" oninput="updateManualX0()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">566</td>
+						<td style="width: 10px"></td>
+						<td style="font-size: 10px; vertical-align: baseline; width: 40px">y<sub>0</sub></td>
+						<td contenteditable="true" id="manualY0" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showVerticalPosition(1)" oninput="updateManualY0()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">814</td>
+					</tr>
+					<tr>
+						<td style="font-size: 10px; vertical-align: baseline; width: 40px">x<sub>1</sub></td>
+						<td contenteditable="true" id="manualX1" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showHorizontalPosition(2)" oninput="updateManualX1()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">2566</td>
+						<td style="width: 10px"></td>
+						<td style="font-size: 10px; vertical-align: baseline; width: 40px">y<sub>1</sub></td>
+						<td contenteditable="true" id="manualY1" onblur="removeIndicators(); normalizeCropAndUpdate()" onfocus="showVerticalPosition(2)" oninput="updateManualY1()" onkeypress="return keyPressFilter(event)" style="vertical-align: baseline; width: 55px">2814</td>
+					</tr>
+				</tbody></table>
+			</div>
+			<div style="border-top: 1px solid #cccccc; margin-top: 5px; padding-top: 5px">
+				<img alt="Align left" onclick="setManualHorizontalAlignment(0.0)" src="./profilepic_files/AlignLeft.png" style="cursor: pointer">
+				<img alt="Align center" onclick="setManualHorizontalAlignment(0.5)" src="./profilepic_files/AlignCenter.png" style="cursor: pointer">
+				<img alt="Align right" onclick="setManualHorizontalAlignment(1.0)" src="./profilepic_files/AlignRight.png" style="cursor: pointer">
+				<img alt="Align top" onclick="setManualVerticalAlignment(0.0)" src="./profilepic_files/AlignTop.png" style="cursor: pointer; margin-left: 20px">
+				<img alt="Align middle" onclick="setManualVerticalAlignment(0.5)" src="./profilepic_files/AlignMiddle.png" style="cursor: pointer">
+				<img alt="Align bottom" onclick="setManualVerticalAlignment(1.0)" src="./profilepic_files/AlignBottom.png" style="cursor: pointer">
+			</div>
+		</div>
+		<div id="configurationAutomatic" style="background-color: rgb(68, 68, 68); border-radius: 5px; color: white; display: none; padding: 10px; width: 200px;">
+			<p style="font-weight: 900; margin: 0 0 0 5px">Aspect ratio
+				<img alt="Toggle crop orientation" id="aspectRatioPortrait" onclick="toggleAspectRatioRotation()" src="./profilepic_files/AspectRatioPortrait.png" style="cursor: pointer; display: none; margin-left: 4px; padding: 0 5px; position: relative; top: -2px; vertical-align: middle; width: 16px" title="Toggle crop orientation"><img alt="Toggle crop orientation" id="aspectRatioLandscape" onclick="toggleAspectRatioRotation()" src="./profilepic_files/AspectRatioLandscape.png" style="cursor: pointer; display: none; margin-left: 4px; padding: 0 5px; position: relative; top: -2px; vertical-align: middle; width: 16px" title="Toggle crop orientation">
+			</p>
+			<p id="mainAspectRatios"><span title="Square (e.g. Facebook or Google+ profile picture)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap; background-color: rgb(153, 153, 153);">1:1</span> <span title="Digital camera images, old screens" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">4:3</span> <span title="Some TV screens" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">16:10</span> <span title="HD video, TV and most computer screens" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">16:9</span> </p>
+			<div id="secondaryAspectRatios" style="font-size: 12px; margin: 3px 0"><span title="Letter, Tabloid (ANSI A, B, ...)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">Letter</span> <span title="DIN A (..., A2, A3, A4, A5, A6, ...)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">A4</span> <span title="135 film" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">3:2</span> <span title="Credit card (85.6 x 53.98 mm)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">Credit&nbsp;card</span> <span title="Golden ratio (1.618:1)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">Golden&nbsp;ratio</span> <span title="Cinemascope" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">2.35:1</span> <span title="2.667:1, 8:3" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">24:9</span> </div>
+			<div id="instagramAspectRatios" style="font-size: 12px; margin: 3px 0"><span style="color: #999; padding: 2px 5px">Instagram</span><span title="Landscape (1.9:1) picture for Instagram" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">wide</span> <span title="Square picture for Instagram" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">square</span> <span title="Portrait picture (4:5) for Instagram" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">portrait</span> </div>
+			<div id="facebookAspectRatios" style="font-size: 12px; margin: 3px 0"><span style="color: #999; padding: 2px 5px">Facebook</span><span title="Photo post on the facebook newsfeed (470 x 394 px, 1.2:1)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">photo</span> <span title="Link post on the facebook newsfeed (470 x 246 px, 1.91:1)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">link</span> <span title="Facebook cover photo (828 x 315 px, 2.63:1)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">cover</span> </div>
+			<div id="twitterAspectRatios" style="font-size: 12px; margin: 3px 0"><span style="color: #999; padding: 2px 5px">Twitter</span><span title="Twitter photo (506 x 253 px, 2:1)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">photo</span> <span title="Twitter header photo (1500 x 500 px, 3:1)" style="cursor: pointer; padding: 2px 5px; border-radius: 2px; white-space: nowrap;">header</span> </div>
+			<p style="font-weight: 900; margin: 10px 0 0 5px">Crop size</p>
+			<p>
+				<span data-crop-size="0.6" data-face-size="1.2" id="cropSizeSmall" onclick="setCropSize(&#39;cropSizeSmall&#39;);" style="border-radius: 2px; cursor: pointer; padding: 2px 5px">small</span>
+				<span data-crop-size="0.8" data-face-size="1.6" id="cropSizeMedium" onclick="setCropSize(&#39;cropSizeMedium&#39;);" style="background-color: #999999; border-radius: 2px; cursor: pointer; padding: 2px 5px">medium</span>
+				<span data-crop-size="1.0" data-face-size="2.0" id="cropSizeBig" onclick="setCropSize(&#39;cropSizeBig&#39;);" style="border-radius: 2px; cursor: pointer; padding: 2px 5px">big</span>
+			</p>
+			<p style="font-weight: 900; margin: 10px 0 0 5px">Crop using</p>
+			<p>
+				<span data-algorithm="croppola" id="algorithmCroppola" onclick="setAlgorithm(&#39;algorithmCroppola&#39;);" style="background-color: #999999; border-radius: 2px; cursor: pointer; padding: 2px 5px" title="Intelligent cropping">croppola</span>
+				<span data-algorithm="center" id="algorithmCenter" onclick="setAlgorithm(&#39;algorithmCenter&#39;);" style="border-radius: 2px; cursor: pointer; padding: 2px 5px" title="Cropping the center of the image">center</span>
+				<span data-algorithm="face" id="algorithmFace" onclick="setAlgorithm(&#39;algorithmFace&#39;);" style="border-radius: 2px; cursor: pointer; padding: 2px 5px; opacity: 1;" title="Cropping the face (if any)">face</span>
+			</p>
+		</div>
+	</div>
+</div>
+
+<input accept="image/*" id="fileSelector" name="fileSelector" onchange="handleFiles(this.files);" style="display: none" type="file">
+
+<div id="waitPanel" style="background: rgba(35, 47, 58, 0.8); box-sizing: content-box; display: none; height: 100%; left: 0; position: fixed; top: 0; width: 100%; z-index: 2">
+<div style="border-radius: 10px; background: rgb(255, 255, 255); position: absolute;"></div><div style="border-radius: 10px; background: rgb(255, 255, 255); position: absolute;"></div><div style="border-radius: 10px; background: rgb(255, 255, 255); position: absolute;"></div><div style="border-radius: 10px; background: rgb(255, 255, 255); position: absolute;"></div><div style="border-radius: 10px; background: rgb(255, 255, 255); position: absolute;"></div></div>
+
+<div id="donationPanel" style="background: rgb(68, 68, 68); border-radius: 5px; color: white; margin: 60px auto; padding: 20px 0px; text-align: center; width: 1100px;">
+	<div id="croppedMessage" style="font-size: 20px">You have cropped <span style="font-weight:900">1</span> picture today.</div>
+	<div style="display: none; font-size: 15px; margin-top: 10px">Croppola is provided free of charge. If you like it, please consider <a href="https://croppola.com/" style="color: #ffc768; text-decoration: none">supporting</a> us.</div>
+</div>
+
+<div id="noDonationPanel" style="border-bottom: 2px solid rgb(102, 102, 102); height: 0px; margin: 60px auto; width: 1100px; display: none;"></div>
+
+<script>
+'use strict';
+
+// Constants
+var algorithm = document.getElementById('algorithmCroppola');
+var cropSize = document.getElementById('cropSizeMedium');
+var aspectRatios = [
+	{type: 'main', ratio: 1.0 / 1.0, label: '1:1', title: 'Square (e.g. Facebook or Google+ profile picture)'},
+	{type: 'main', ratio: 4.0 / 3.0, label: '4:3', title: 'Digital camera images, old screens'},
+	{type: 'main', ratio: 16.0 / 10.0, label: '16:10', title: 'Some TV screens'},
+	{type: 'main', ratio: 16.0 / 9.0, label: '16:9', title: 'HD video, TV and most computer screens'},
+	{type: 'secondary', ratio: 11.0 / 8.5, label: 'Letter', title: 'Letter, Tabloid (ANSI A, B, ...)'},
+	{type: 'secondary', ratio: 29.7 / 21.0, label: 'A4', title: 'DIN A (..., A2, A3, A4, A5, A6, ...)'},
+	{type: 'secondary', ratio: 3.0 / 2.0, label: '3:2', title: '135 film'},
+	{type: 'secondary', ratio: 85.60 / 53.98, label: 'Credit&nbsp;card', title: 'Credit card (85.6 x 53.98 mm)'},
+	{type: 'secondary', ratio: 1.6180339887498948482, label: 'Golden&nbsp;ratio', title: 'Golden ratio (1.618:1)'},
+	{type: 'secondary', ratio: 2.35 / 1.0, label: '2.35:1', title: 'Cinemascope'},
+	{type: 'secondary', ratio: 24.0 / 9.0, label: '24:9', title: '2.667:1, 8:3'},
+	{type: 'instagram', ratio: 1.9 / 1.0, label: 'wide', title: 'Landscape (1.9:1) picture for Instagram', landscape: true},
+	{type: 'instagram', ratio: 1.0 / 1.0, label: 'square', title: 'Square picture for Instagram'},
+	{type: 'instagram', ratio: 5.0 / 4.0, label: 'portrait', title: 'Portrait picture (4:5) for Instagram', portrait: true},
+	{type: 'facebook', ratio: 470.0 / 394.0, label: 'photo', title: 'Photo post on the facebook newsfeed (470 x 394 px, 1.2:1)'},
+	{type: 'facebook', ratio: 470.0 / 246.0, label: 'link', title: 'Link post on the facebook newsfeed (470 x 246 px, 1.91:1)'},
+	{type: 'facebook', ratio: 828.0 / 315.0, label: 'cover', title: 'Facebook cover photo (828 x 315 px, 2.63:1)'},
+	{type: 'twitter', ratio: 506.0 / 253.0, label: 'photo', title: 'Twitter photo (506 x 253 px, 2:1)', scalingWidth: 506},
+	{type: 'twitter', ratio: 1500.0 / 500.0, label: 'header', title: 'Twitter header photo (1500 x 500 px, 3:1)', scalingWidth: 1500}
+	//{type: 'secondary', ratio: 35.3 / 25.0, label: 'B4', title: 'DIN B (..., B2, B3, B4, B5, B6, ...)'},
+	//{type: 'secondary', ratio: 32.4 / 22.9, label: 'C4', title: 'DIN C (..., C2, C3, C4, C5, C6, ...)'},
+	//{type: 'secondary', ratio: 14.0 / 8.5, label: 'Legal', title: 'Legal'},
+	//{type: 'secondary', ratio: 8.5 / 5.5, label: 'Invoice', title: 'Invoice'},
+	//{type: 'secondary', ratio: 10.5 / 7.25, label: 'Executive', title: 'Executive'},
+];
+
+// State
+var localId = '9d3012569c79';
+var currentImage = null;
+var customAspectRatioElement = null;
+var aspectRatioRotation = false;
+var aspectRatio = addAspectRatio(aspectRatios[0]);
+aspectRatio.style.backgroundColor = '#999999';
+for (var i = 1; i < aspectRatios.length; i++)
+	addAspectRatio(aspectRatios[i]);
+
+// Read the preferences
+readPreferences();
+
+function readPreferences() {
+	// Local ID
+	if (window.localStorage) {
+		localId = window.localStorage.getItem('id');
+		if (localId == null) { localId = randomHex(12); window.localStorage.setItem('id', localId); }
+	}
+
+	// Parse the search and hash arguments
+	var vars = {};
+	parseArguments(window.location.search.substr(1));
+	parseArguments(window.location.hash.substr(1));
+	console.log(vars);
+
+	function parseArguments(text) {
+		var tuples = text.split('&');
+		for (var i = 0; i < tuples.length; i++) {
+			var tuple = tuples[i];
+			var pos = tuple.indexOf('=');
+			if (pos < 0) continue;
+			var key = decodeURIComponent(tuple.substr(0, pos)).toLowerCase();
+			vars[key] = decodeURIComponent(tuple.substr(pos + 1));
+		}
+	}
+
+	// Parse desired aspect ratio
+	if (vars.aspectratio != null) {
+		var selectedRatio = stringToAspectRatio(vars.aspectratio);
+		var selectedElement = setCustomAspectRatio(selectedRatio);
+		selectedElement.onclick();
+	} else if (window.localStorage) {
+		setCustomAspectRatio(parseFloat(window.localStorage.getItem('customAspectRatio')));
+	}
+
+	// Parse the thumbnail width and height
+	if (vars.scaledwidth != null) {
+		setScaling('width', vars.scaledwidth);
+		toggleScaling();
+	} else if (vars.scaledheight != null) {
+		setScaling('height', vars.scaledheight);
+		toggleScaling();
+	} else if (window.localStorage) {
+		var type = window.localStorage.getItem('scalingType');
+		if (type == 'width' || type == 'height') setScaling(type, window.localStorage.getItem('scalingValue')); else setScaling('width', 200);
+		if (window.localStorage.getItem('scaling') == 'true') toggleScaling();
+	} else {
+		setScaling('width', 200);
+	}
+
+	// URL
+	if (vars.url != null) {
+		var request = new XMLHttpRequest();
+		request.responseType = 'blob';
+
+		request.onload = function() {
+			if (request.status != 200 || request.response == null) return request.onerror();
+			var blob = request.response;
+			blob.name = vars.name || guessNameFromUrl(vars.url);
+			switchToFile(blob);
+		}
+
+		request.onerror = function() {
+			alert('Failed to download the image "' + vars.url + '".');
+		}
+
+		request.open('GET', vars.url, true);
+		request.send();
+	}
+
+	function guessNameFromUrl(url) {
+		var lastSlash = url.lastIndexOf('/');
+		return lastSlash < 0 ? url : url.substr(lastSlash + 1);
+	}
+}
+
+function addAspectRatio(ratio) {
+	var box = document.getElementById(ratio.type + 'AspectRatios');
+	var element = document.createElement('span');
+	element.innerHTML = ratio.label;
+	element.title = ratio.title;
+	element.style.cursor = 'pointer';
+	element.style.padding = '2px 5px';
+	element.style.borderRadius = '2px';
+	element.style.whiteSpace = 'nowrap';
+	element.aspectRatio = ratio;
+
+	element.onclick = function(e) {
+		aspectRatio.style.backgroundColor = 'transparent';
+		aspectRatio = this;
+		aspectRatio.style.backgroundColor = '#999999';
+
+		if (aspectRatio.aspectRatio.landscape) aspectRatioRotation = false;
+		else if (aspectRatio.aspectRatio.portrait) aspectRatioRotation = true;
+
+		if (aspectRatio.aspectRatio.scalingWidth != null) setScaling('width', aspectRatio.aspectRatio.scalingWidth);
+		else if (aspectRatio.aspectRatio.scalingHeight != null) setScaling('height', aspectRatio.aspectRatio.scalingHeight);
+
+		updateAspectRatioRotation();
+		calculateCrop();
+	}
+
+	box.appendChild(element);
+	box.appendChild(document.createTextNode(' '));
+	return element;
+}
+
+function setCustomAspectRatio(ratio) {
+	if (customAspectRatioElement != null) {
+		customAspectRatioElement.parentNode.removeChild(customAspectRatioElement);
+		customAspectRatioElement = null;
+	}
+
+	window.localStorage.setItem('customAspectRatio', ratio);
+	if (!(ratio > 0)) return;
+
+	var customAspectRatio = {'type': 'secondary', 'ratio': ratio, 'label': (ratio < 1.0 ? '1:' + Math.round(100 / ratio) / 100 : Math.round(ratio * 100) / 100 + ':1') , 'title': 'Custom ratio'}
+	customAspectRatioElement = addAspectRatio(customAspectRatio);
+	return customAspectRatioElement;
+	//<span id="aspectRatioAddCustom" onClick="addCustomAspectRatio;" title="Add custom aspect ratio" style="cursor:pointer; cursor:pointer; padding:2px 5px; border-radius:2px; display:none">+</span>
+}
+
+function dragOverHandler(e) {
+	e.stopPropagation();
+	e.preventDefault();
+	document.getElementById('imageFrame').style.backgroundColor = '#ff0000';
+	return false;
+}
+
+function dragLeaveHandler(e) {
+	e.stopPropagation();
+	e.preventDefault();
+	document.getElementById('imageFrame').style.backgroundColor = '#ffffff';
+	return false;
+}
+
+function dropHandler(e) {
+	dragLeaveHandler(e);
+	var dt = e.dataTransfer;
+	return handleFiles(dt.files);
+}
+
+function handleFiles(files) {
+	for (var i = 0; i < files.length; i++) {
+		var file = files[i];
+		if (file.type == 'image/jpeg' || file.type == 'image/png') {
+			switchToFile(file);
+			return false;
+		} else if (file.type == 'image/gif' || file.type == 'image/bmp') {
+			alert('GIF and BMP images are currently not supported. Please convert your image to JPG or PNG.');
+		} else {
+			alert('This file format of "' + file.name + '" is not supported! Please convert your image to JPG or PNG.');
+		}
+	}
+	return false;
+}
+
+function removeCurrentImage() {
+	if (currentImage == null) return;
+	if (currentImage.parentNode) imageFrame.removeChild(currentImage);
+	currentImage.request.abort();
+	currentImage = null;
+}
+
+function switchToToken(token, filename) {
+	if (token === undefined) return;
+	if (filename === undefined) filename = 'image.jpg';
+
+	// If there is a current image, remove it
+	removeCurrentImage();
+
+	// Create an image
+	var image = document.createElement('img');
+	image.sourceFile = {name: filename};
+	image.serverToken = token;
+	currentImage = image;
+
+	// As soon as the image is ready, deploy it on the screen
+	image.onload = deployImage;
+
+	// Load the image
+	image.src = '/croppola/' + token + '/' + filename.replace('#', '').replace('?', '') + '?x=0&y=0&width=100%&height=100%';
+	calculateCrop();
+}
+
+function switchToFile(file) {
+	// If there is a current image, remove it
+	removeCurrentImage();
+
+	// Create an image
+	var image = document.createElement('img');
+	image.sourceFile = file;
+	currentImage = image;
+
+	// As soon as the image is ready, deploy it on the screen
+	image.onload = deployImage;
+
+	// Load the image
+	if (window.URL && window.URL.createObjectURL) {
+		image.src = window.URL.createObjectURL(file);
+	} else if (window.webkitURL && window.webkitURL.createObjectURL) {
+		// Older webkit-based browsers
+		image.src = window.webkitURL.createObjectURL(file);
+	} else {
+		// Very old browsers
+		var fr = new FileReader();
+		fr.onload = function(e) { image.src = this.result; }
+		fr.readAsDataURL(file);
+	}
+
+	calculateCrop();
+}
+
+function deployImage() {
+	if (this != currentImage) return;
+
+	this.ourNaturalWidth = this.width;
+	this.ourNaturalHeight = this.height;
+	document.getElementById('fileInfoName').textContent = this.sourceFile.name;
+	document.getElementById('fileInfoSize').textContent = this.ourNaturalWidth + 'x' + this.ourNaturalHeight;
+
+	var w = (this.ourNaturalWidth > 810 ? 810 : this.ourNaturalWidth);
+	var h = (this.ourNaturalHeight > 600 ? 600 : this.ourNaturalHeight);
+	var wforh = h / this.ourNaturalHeight * this.ourNaturalWidth;
+	var hforw = w / this.ourNaturalWidth * this.ourNaturalHeight;
+	this.width = (w > wforh ? wforh : w);
+	this.height = (h > hforw ? hforw : h);
+	this.style.margin = '20px 20px 20px 20px';
+
+	var imageFrame = document.getElementById('imageFrame');
+	imageFrame.appendChild(this);
+	imageFrame.style.width = (this.width + 40) + 'px';
+	imageFrame.style.height = (this.height + 40) + 'px';
+
+	var clickToUpload = document.getElementById('clickToUpload');
+	if (clickToUpload != null) imageFrame.removeChild(clickToUpload);
+
+	var imageArea = document.getElementById('imageArea');
+	imageArea.style.width = (this.width + 42 + 248) + 'px';
+	var padding = (500 - 42 - this.height) * 0.5;
+	if (padding < 0) padding = 0;
+	imageArea.style.padding = padding + 'px 0';
+
+	var viewOptions = document.getElementById('viewOptions');
+	viewOptions.style.left = '20px';
+	viewOptions.style.top = (this.height + 43) + 'px';
+	viewOptions.style.visibility = 'visible';
+
+	var dominantColors = document.getElementById('dominantColors');
+	dominantColors.style.right = '270px';
+	dominantColors.style.top = (this.height + 43) + 'px';
+	dominantColors.style.visibility = 'visible';
+	updateDominantColors();
+
+	document.getElementById('toolBoxTop').style.visibility = 'visible';
+	document.getElementById('toolBoxBottom').style.visibility = 'visible';
+	document.getElementById('exampleImages').style.visibility = 'hidden';
+	document.getElementById('advertising').style.visibility = 'hidden';
+
+	hideFaceRectangles();
+	updateCropFrame();
+	updateCropsStatistics();
+}
+
+function calculateCrop() {
+	if (currentImage == null) return;
+
+	// Prepare the instance we are working on
+	var image = currentImage;
+	if (image.automaticCrop == null) image.automaticCrop = {algorithm: 'none'};
+	switchToAutomatic();
+
+	// Check we can crop ourselves
+	var algorithmName = algorithm.getAttribute('data-algorithm');
+	if (algorithmName == 'face' && currentImage.faces != null) return calculateFaceCrop();
+
+	// Update the message
+	function updateMessage(message, ratio) {
+		document.getElementById('uploadProgressRectangle').style.width = Math.round(ratio * 198 + 2) + 'px';
+		document.getElementById('uploadProgressBar').title = message;
+		document.getElementById('uploadProgressBar').style.display = 'block';
+		image.automaticCrop.message = message;
+		updateCropFrame();
+	};
+
+	// Prepare the request
+	var request = new XMLHttpRequest();
+	if (currentImage.request) currentImage.request.abort();
+	currentImage.request = request;
+
+	if (request.upload) {
+		request.upload.onprogress = function(e) {
+			if (image != currentImage) return;
+			var done = e.position || e.loaded;
+			var total = e.totalSize || e.total;
+			var toMBString = function(bytes) {return (Math.round(bytes / 1000 / 100) / 10) + ' MB';}
+			updateMessage('Uploading picture: ' + toMBString(done) + ' / ' + toMBString(total), done / total);
+		};
+
+		request.upload.onload = function(e) {
+			if (image != currentImage) return;
+			updateMessage('Calculating crop ...', 1.0);
+		};
+
+		request.upload.onerror = function(e) {
+			if (image != currentImage) return;
+			updateMessage('Error while uploading the image to the croppola server!', 0.0);
+		};
+
+		request.upload.onabort = function(e) {
+			if (image != currentImage) return;
+			updateMessage('Error while uploading the image to the croppola server!', 0.0);
+		};
+	}
+
+	// Update the interface as soon as we receive the reply from the server
+	request.onreadystatechange = function(e) {
+		if (image != currentImage) return;
+		if (this.readyState == 4) {
+			if (this.status != 200 || ! this.responseText) return updateMessage('Error while processing the image!', 0.0);
+
+			document.getElementById('uploadProgressBar').style.display = 'none';
+			var reply = JSON.parse(this.responseText);
+			image.serverToken = reply.token;
+
+			image.dominantColors = reply.dominantColors;
+			updateDominantColors();
+
+			setFaces(reply.faces);
+			if (algorithmName == 'face') return calculateFaceCrop();
+
+			image.automaticCrop =
+				reply.cropError ? {'message': 'No suitable crop found.', 'algorithm': reply.algorithm} :
+				{'x': reply.cropX, 'y': reply.cropY, 'width': reply.cropWidth, 'height': reply.cropHeight, 'algorithm': reply.algorithm};
+
+			updateCropFrame();
+		}
+	};
+
+	// Collect parameters
+	var cropSizePercentage = cropSize.getAttribute('data-crop-size') * 100;
+	var queryString = 'aspectRatio=' + (aspectRatioRotation ? 1.0 / aspectRatio.aspectRatio.ratio : aspectRatio.aspectRatio.ratio);
+	queryString += '&maximumWidth=' + cropSizePercentage + '%&maximumHeight=' + cropSizePercentage + '%';
+	queryString += '&algorithm=' + algorithmName;
+	queryString += '&localId=' + localId;
+
+	// Start uploading
+	if (image.serverToken == null) {
+		updateMessage('Uploading picture ...', 0.0);
+		request.open('POST', '/croppola/image.json?' + queryString, true);
+		request.send(image.sourceFile);
+	} else {
+		updateMessage('Calculating crop ...', 0.0);
+		request.open('GET', '/croppola/' + image.serverToken + '/image.json?' + queryString, true);
+		request.send();
+	}
+}
+
+function setFaces(faces) {
+	if (currentImage == null) return;
+	if (currentImage.faces != null) return;
+
+	// Indicate whether there are faces or not
+	document.getElementById('algorithmFace').style.opacity = faces == null || faces.length == 0 ? 0.3 : 1.0;
+
+	// Set these faces
+	currentImage.faces = faces;
+	if (faces == null) return;
+
+	// Select the largest face
+	var maxSize = 0;
+	for (var i = 0; i < faces.length; i++) {
+		var face = faces[i];
+		var size = face.width * face.height;
+		if (size < maxSize) continue;
+		maxSize = size;
+		currentImage.selectedFace = face;
+	}
+}
+
+function calculateFaceCrop() {
+	if (currentImage == null) return;
+	if (currentImage.selectedFace == null) {
+		currentImage.automaticCrop = {'message': 'No faces found on this picture.', 'algorithm': 'face'};
+		return updateCropFrame();
+	}
+
+	// Create a crop rectangle around it
+	var face = currentImage.selectedFace;
+	var faceSize = cropSize.getAttribute('data-face-size');
+	var ratio = aspectRatioRotation ? 1.0 / aspectRatio.aspectRatio.ratio : aspectRatio.aspectRatio.ratio;
+
+	var height = Math.min(currentImage.ourNaturalHeight, Math.sqrt(face.width * face.height / ratio) * faceSize);
+	var width = height * ratio;
+	if (width > currentImage.ourNaturalWidth) {
+		width = currentImage.ourNaturalWidth;
+		height = width / ratio;
+	}
+
+	var x = Math.max(0, Math.min(currentImage.ourNaturalWidth - width, face.x + (face.width - width) * 0.5));
+	var y = Math.max(0, Math.min(currentImage.ourNaturalHeight - height, face.y + (face.height - height) * 0.5));
+
+	// Use this as automatic crop
+	currentImage.automaticCrop = {'x': x, 'y': y, 'width': width, 'height': height, 'algorithm': 'face'};
+	updateCropFrame();
+}
+
+function normalizeCropAndUpdate() {
+	if (currentImage == null) return;
+	var crop = currentImage.manualCrop;
+	if (crop == null) return;
+
+	if (crop.width < 0) {
+		crop.x += crop.width;
+		crop.width = -crop.width;
+	}
+
+	if (crop.height < 0) {
+		crop.y += crop.height;
+		crop.height = -crop.height;
+	}
+
+	if (crop.x < 0) crop.x = 0;
+	if (crop.y < 0) crop.y = 0;
+	if (crop.width > currentImage.ourNaturalWidth) crop.width = currentImage.ourNaturalWidth;
+	if (crop.height > currentImage.ourNaturalHeight) crop.height = currentImage.ourNaturalHeight;
+	if (crop.x + crop.width > currentImage.ourNaturalWidth) crop.x = currentImage.ourNaturalWidth - crop.width;
+	if (crop.y + crop.height > currentImage.ourNaturalHeight) crop.y = currentImage.ourNaturalHeight - crop.height;
+	updateCropFrame();
+}
+
+function updateCropFrame() {
+	if (currentImage == null) return;
+
+	// Elements to move
+	var cropFrame = document.getElementById('cropFrame');
+	var cropFrameTop = document.getElementById('cropFrameTop');
+	var cropFrameBottom = document.getElementById('cropFrameBottom');
+	var cropFrameLeft = document.getElementById('cropFrameLeft');
+	var cropFrameRight = document.getElementById('cropFrameRight');
+	var cropGridHorizontal0 = document.getElementById('cropGridHorizontal0');
+	var cropGridHorizontal1 = document.getElementById('cropGridHorizontal1');
+	var cropGridHorizontal2 = document.getElementById('cropGridHorizontal2');
+	var cropGridVertical0 = document.getElementById('cropGridVertical0');
+	var cropGridVertical1 = document.getElementById('cropGridVertical1');
+	var cropGridVertical2 = document.getElementById('cropGridVertical2');
+	var cropMessage = document.getElementById('cropMessage');
+	var horizontalIndicator = document.getElementById('horizontalIndicator');
+	var verticalIndicator = document.getElementById('verticalIndicator');
+	var cropDimensions = document.getElementById('cropDimensions');
+	var downloadButton = document.getElementById('downloadButton');
+	var downloadButtonDisabled = document.getElementById('downloadButtonDisabled');
+	var orderButton = document.getElementById('orderButton');
+	var orderButtonDisabled = document.getElementById('orderButtonDisabled');
+	var scalingPanel = document.getElementById('scalingPanel');
+	var scaledWidthInput = document.getElementById('scaledWidthInput');
+	var scaledHeightInput = document.getElementById('scaledHeightInput');
+
+	// Get the crop
+	var activeCrop = currentImage.cropMode == 'auto' ? currentImage.automaticCrop : currentImage.manualCrop;
+
+	// Display the message, if any
+	if (activeCrop != null && activeCrop.message != null) {
+		cropMessage.textContent = activeCrop.message;
+		cropMessage.style.visibility = 'visible';
+	} else {
+		cropMessage.style.visibility = 'hidden';
+	}
+
+	// If no crop is available, hide all
+	if (activeCrop == null || activeCrop.width == null || currentImage.ourNaturalWidth == null || currentImage.ourNaturalHeight == null) {
+		cropFrame.style.visibility = 'hidden';
+		cropFrameTop.style.visibility = 'hidden';
+		cropFrameBottom.style.visibility = 'hidden';
+		cropFrameLeft.style.visibility = 'hidden';
+		cropFrameRight.style.visibility = 'hidden';
+		cropGridHorizontal0.style.visibility = 'hidden';
+		cropGridHorizontal1.style.visibility = 'hidden';
+		cropGridHorizontal2.style.visibility = 'hidden';
+		cropGridVertical0.style.visibility = 'hidden';
+		cropGridVertical1.style.visibility = 'hidden';
+		cropGridVertical2.style.visibility = 'hidden';
+		horizontalIndicator.style.visibility = 'hidden';
+		verticalIndicator.style.visibility = 'hidden';
+		cropDimensions.textContent = '(not available)';
+		downloadButton.style.display = 'none';
+		downloadButtonDisabled.style.display = 'inline-block';
+		orderButton.style.display = 'none';
+		orderButtonDisabled.style.display = 'inline-block';
+		return;
+	}
+
+	// Image coordinates of the crop (internal coordinates rounded to the nearest integer)
+	var crop = {};
+	crop.x = Math.round(activeCrop.x);
+	crop.y = Math.round(activeCrop.y);
+	crop.width = Math.round(activeCrop.width);
+	crop.height = Math.round(activeCrop.height);
+
+	// View coordinates of the crop (they may be outside of the image area, but are integer and with non-negative dimension)
+	var cropView = {};
+	cropView.x0 = Math.round(crop.x / currentImage.ourNaturalWidth * currentImage.width);
+	cropView.y0 = Math.round(crop.y / currentImage.ourNaturalHeight * currentImage.height);
+	cropView.width = Math.round(crop.width / currentImage.ourNaturalWidth * currentImage.width);
+	cropView.height = Math.round(crop.height / currentImage.ourNaturalHeight * currentImage.height);
+
+	if (cropView.width < 0) {
+		cropView.x0 += cropView.width;
+		cropView.width = -cropView.width;
+	}
+
+	if (cropView.height < 0) {
+		cropView.y0 += cropView.height;
+		cropView.height = -cropView.height;
+	}
+
+	cropView.x1 = cropView.x0 + cropView.width;
+	cropView.y1 = cropView.y0 + cropView.height;
+
+	// Crop frame (white border)
+	cropFrame.style.visibility = 'visible';
+	cropFrame.style.left = (cropView.x0 + 10) + 'px';
+	cropFrame.style.top = (cropView.y0 + 10) + 'px';
+	cropFrame.style.width = cropView.width + 'px';
+	cropFrame.style.height = cropView.height + 'px';
+
+	// View coordinates of the crop including the crop frame (10px border), intersected with the image area
+	cropView.x0b = Math.min(Math.max(cropView.x0 - 10, 0.0), currentImage.width);
+	cropView.y0b = Math.min(Math.max(cropView.y0 - 10, 0.0), currentImage.height);
+	cropView.x1b = Math.min(Math.max(cropView.x1 + 10, 0.0), currentImage.width);
+	cropView.y1b = Math.min(Math.max(cropView.y1 + 10, 0.0), currentImage.height);
+
+	// Left
+	if (cropView.x0b > 0) {
+		cropFrameLeft.style.left = '20px';
+		cropFrameLeft.style.top = '20px';
+		cropFrameLeft.style.width = cropView.x0b + 'px';
+		cropFrameLeft.style.height = currentImage.height + 'px';
+		cropFrameLeft.style.visibility = 'visible';
+	} else {
+		cropFrameLeft.style.visibility = 'hidden';
+	}
+
+	// Right
+	if (currentImage.width - cropView.x1b > 0) {
+		cropFrameRight.style.left = (cropView.x1b + 20) + 'px';
+		cropFrameRight.style.top = '20px';
+		cropFrameRight.style.width = (currentImage.width - cropView.x1b) + 'px';
+		cropFrameRight.style.height = currentImage.height + 'px';
+		cropFrameRight.style.visibility = 'visible';
+	} else {
+		cropFrameRight.style.visibility = 'hidden';
+	}
+
+	// Top
+	if (cropView.y0b > 0 && cropView.x1b - cropView.x0b > 0) {
+		cropFrameTop.style.left = (cropView.x0b + 20) + 'px';
+		cropFrameTop.style.top = '20px';
+		cropFrameTop.style.width = (cropView.x1b - cropView.x0b) + 'px';
+		cropFrameTop.style.height = cropView.y0b + 'px';
+		cropFrameTop.style.visibility = 'visible';
+	} else {
+		cropFrameTop.style.visibility = 'hidden';
+	}
+
+	// Bottom
+	if (currentImage.height - cropView.y1b > 0 && cropView.x1b - cropView.x0b > 0) {
+		cropFrameBottom.style.left = (cropView.x0b + 20) + 'px';
+		cropFrameBottom.style.top = (cropView.y1b + 20) + 'px';
+		cropFrameBottom.style.width = (cropView.x1b - cropView.x0b) + 'px';
+		cropFrameBottom.style.height = (currentImage.height - cropView.y1b) + 'px';
+		cropFrameBottom.style.visibility = 'visible';
+	} else {
+		cropFrameBottom.style.visibility = 'hidden';
+	}
+
+	// Grid lines
+	if (currentImage.gridType == '44') {
+		setGridHorizontal(cropGridHorizontal0, 0.25);
+		setGridHorizontal(cropGridHorizontal1, 0.5);
+		setGridHorizontal(cropGridHorizontal2, 0.75);
+		setGridVertical(cropGridVertical0, 0.25);
+		setGridVertical(cropGridVertical1, 0.5);
+		setGridVertical(cropGridVertical2, 0.75);
+	} else if (currentImage.gridType == '33') {
+		setGridHorizontal(cropGridHorizontal0, 1.0 / 3.0);
+		setGridHorizontal(cropGridHorizontal1, 2.0 / 3.0);
+		cropGridHorizontal2.style.visibility = 'hidden';
+		setGridVertical(cropGridVertical0, 1.0 / 3.0);
+		setGridVertical(cropGridVertical1, 2.0 / 3.0);
+		cropGridVertical2.style.visibility = 'hidden';
+	} else if (currentImage.gridType == 'golden') {
+		setGridHorizontal(cropGridHorizontal0, 1.0 - 0.61083);
+		setGridHorizontal(cropGridHorizontal1, 0.61083);
+		cropGridHorizontal2.style.visibility = 'hidden';
+		setGridVertical(cropGridVertical0, 1.0 - 0.61083);
+		setGridVertical(cropGridVertical1, 0.61083);
+		cropGridVertical2.style.visibility = 'hidden';
+	} else {
+		cropGridHorizontal0.style.visibility = 'hidden';
+		cropGridHorizontal1.style.visibility = 'hidden';
+		cropGridHorizontal2.style.visibility = 'hidden';
+		cropGridVertical0.style.visibility = 'hidden';
+		cropGridVertical1.style.visibility = 'hidden';
+		cropGridVertical2.style.visibility = 'hidden';
+	}
+
+	function setGridHorizontal(element, yRatio) {
+		element.style.left = (cropView.x0 + 20) + 'px';
+		element.style.width = (cropView.x1 - cropView.x0) + 'px';
+		element.style.top = (cropView.y0 + (cropView.y1 - cropView.y0) * yRatio + 20) + 'px';
+		element.style.visibility = 'visible';
+	}
+
+	function setGridVertical(element, xRatio) {
+		element.style.top = (cropView.y0 + 20) + 'px';
+		element.style.height = (cropView.y1 - cropView.y0) + 'px';
+		element.style.left = (cropView.x0 + (cropView.x1 - cropView.x0) * xRatio + 20) + 'px';
+		element.style.visibility = 'visible';
+	}
+
+	// Horizontal indicator
+	var xMarks = [0, cropView.x0, cropView.x1, currentImage.width];
+	if (currentImage.horizontalDistance != null) {
+		var x0 = xMarks[currentImage.horizontalDistance.i0];
+		var x1 = xMarks[currentImage.horizontalDistance.i1];
+		if (x1 - x0 > 10) {
+			horizontalIndicator.style.visibility = 'visible';
+			horizontalIndicator.style.left = (x0 + 25) + 'px';
+			horizontalIndicator.style.top = (cropView.y0 + cropView.height / 2 + 20) + 'px';
+			horizontalIndicator.style.width = (x1 - x0 - 10) + 'px';
+			horizontalIndicator.style.height = '1px';
+		} else {
+			horizontalIndicator.style.visibility = 'hidden';
+		}
+	} else if (currentImage.horizontalPosition != null) {
+		horizontalIndicator.style.visibility = 'visible';
+		var x = xMarks[currentImage.horizontalPosition.i];
+		horizontalIndicator.style.left = (x + 20) + 'px';
+		horizontalIndicator.style.top = '20px';
+		horizontalIndicator.style.width = '1px';
+		horizontalIndicator.style.height = currentImage.height + 'px';
+	} else {
+		horizontalIndicator.style.visibility = 'hidden';
+	}
+
+	// Vertical indicator
+	var yMarks = [0, cropView.y0, cropView.y1, currentImage.height];
+	if (currentImage.verticalDistance != null) {
+		var y0 = yMarks[currentImage.verticalDistance.i0];
+		var y1 = yMarks[currentImage.verticalDistance.i1];
+		if (y1 - y0 > 10) {
+			verticalIndicator.style.visibility = 'visible';
+			verticalIndicator.style.left = (cropView.x0 + cropView.width / 2 + 20) + 'px';
+			verticalIndicator.style.top = (y0 + 25) + 'px';
+			verticalIndicator.style.width = '1px';
+			verticalIndicator.style.height = (y1 - y0 - 10) + 'px';
+		} else {
+			verticalIndicator.style.visibility = 'hidden';
+		}
+	} else if (currentImage.verticalPosition != null) {
+		verticalIndicator.style.visibility = 'visible';
+		var y = yMarks[currentImage.verticalPosition.i];
+		verticalIndicator.style.left = '20px';
+		verticalIndicator.style.top = (y + 20) + 'px';
+		verticalIndicator.style.width = currentImage.width + 'px';
+		verticalIndicator.style.height = '1px';
+	} else {
+		verticalIndicator.style.visibility = 'hidden';
+	}
+
+	// Dimension labels of manual crop
+	var fillManualCoordinate = function(id, value) {
+		var element = document.getElementById(id);
+		if (element == document.activeElement) return;
+		element.textContent = value;
+	};
+
+	fillManualCoordinate('manualLeft', crop.x);
+	fillManualCoordinate('manualWidth', crop.width);
+	fillManualCoordinate('manualRight', currentImage.ourNaturalWidth - crop.x - crop.width);
+	fillManualCoordinate('manualTop', crop.y);
+	fillManualCoordinate('manualHeight', crop.height);
+	fillManualCoordinate('manualBottom', currentImage.ourNaturalHeight - crop.y - crop.height);
+
+	fillManualCoordinate('manualX0', crop.x);
+	fillManualCoordinate('manualX1', crop.x + crop.width);
+	fillManualCoordinate('manualY0', crop.y);
+	fillManualCoordinate('manualY1', crop.y + crop.height);
+
+	// Aspect ratio label (calculated from the internal width and height)
+	var aspectRatioLabel = document.getElementById('manualAspectRatio');
+	if (aspectRatioLabel != document.activeElement) {
+		var ratio = activeCrop.width / activeCrop.height;
+		if (ratio < 1.0) {
+			aspectRatioLabel.textContent = '1 : ' + Math.round(1.0 / ratio * 100) / 100;
+		} else {
+			aspectRatioLabel.textContent = Math.round(ratio * 100) / 100 + ' : 1';
+		}
+	}
+
+	document.getElementById('manualAspectRatioLandscape').style.display = activeCrop.width > activeCrop.height ? '' : 'none';
+	document.getElementById('manualAspectRatioPortrait').style.display = activeCrop.width < activeCrop.height ? '' : 'none';
+
+	// Crop size label
+	var cropSizeLabel = document.getElementById('manualCropSize');
+	if (cropSizeLabel != document.activeElement) {
+		var size = crop.width * crop.height;
+		if (size < 1000)
+			cropSizeLabel.textContent = Math.round(size);
+		else if (size < 1000000)
+			cropSizeLabel.textContent = Math.round(size / 1000) + ' kP';
+		else
+			cropSizeLabel.textContent = (Math.round(size / 100000) / 10) + ' MP';
+	}
+
+	// Final crop (intersected with the image area)
+	var finalCrop = {};
+	finalCrop.x0 = Math.min(Math.max(Math.min(crop.x, crop.x + crop.width), 0.0), currentImage.ourNaturalWidth);
+	finalCrop.y0 = Math.min(Math.max(Math.min(crop.y, crop.y + crop.height), 0.0), currentImage.ourNaturalHeight);
+	finalCrop.x1 = Math.min(Math.max(Math.max(crop.x, crop.x + crop.width), 0.0), currentImage.ourNaturalWidth);
+	finalCrop.y1 = Math.min(Math.max(Math.max(crop.y, crop.y + crop.height), 0.0), currentImage.ourNaturalHeight);
+	finalCrop.width = finalCrop.x1 - finalCrop.x0;
+	finalCrop.height = finalCrop.y1 - finalCrop.y0;
+
+	if (finalCrop.width > 0 && finalCrop.height > 0) {
+		cropDimensions.textContent = finalCrop.width + 'x' + finalCrop.height + ' (at ' + finalCrop.x0 + ', ' + finalCrop.y0 + ')';
+	} else {
+		cropDimensions.textContent = '(empty)';
+	}
+
+	// Calculate scaled width and height
+	var scaled = null;
+	var value = parseInt(scalingPanel.scalingValue);
+	if (! isNaN(value)) {
+		if (scalingPanel.scalingType == 'width' && activeCrop.width > 0)
+			scaled = {'width': value, 'height': Math.round(value / activeCrop.width * activeCrop.height)};
+		else if (scalingPanel.scalingType == 'height' && activeCrop.height > 0)
+			scaled = {'width': Math.round(value / activeCrop.height * activeCrop.width), 'height': value};
+	}
+
+	// Update the UI
+	if (scaled) {
+		if (scaledWidthInput != document.activeElement) scaledWidthInput.value = scaled.width;
+		if (scaledHeightInput != document.activeElement) scaledHeightInput.value = scaled.height;
+	}
+
+	// Create the link
+	if (currentImage.serverToken != null && finalCrop.width > 0 && finalCrop.height > 0) {
+		var filename = currentImage.sourceFile.name.replace('#', '').replace('?', '');
+		var pos = filename.lastIndexOf('.');
+		var extension = (filename.substring(pos) == '.png' ? 'png' : 'jpg');
+		if (pos > -1) filename = filename.substring(0, pos);
+		var parameters = '?x=' + finalCrop.x0 + '&y=' + finalCrop.y0 + '&width=' + finalCrop.width + '&height=' + finalCrop.height;
+		if (scaled && scalingPanel.style.display == 'block') parameters += '&scaledWidth=' + scaled.width + '&scaledHeight=' + scaled.height;
+		parameters += '&info=' + activeCrop.algorithm + '&localId=' + localId;
+		if (activeCrop.derivedFrom) parameters += '&derivedFromX=' + activeCrop.derivedFrom.x + '&derivedFromY=' + activeCrop.derivedFrom.y + '&derivedFromWidth=' + activeCrop.derivedFrom.width + '&derivedFromHeight=' + activeCrop.derivedFrom.height + '&derivedFromAlgorithm=' + activeCrop.derivedFrom.algorithm;
+
+		downloadButton.href = '/croppola/' + currentImage.serverToken + '/download/' + filename + ' Cropped.' + extension + parameters;
+		downloadButton.style.display = 'inline';
+		downloadButtonDisabled.style.display = 'none';
+		orderButton.style.display = 'inline';
+		orderButtonDisabled.style.display = 'none';
+	} else {
+		downloadButton.href = '';
+		downloadButton.style.display = 'none';
+		downloadButtonDisabled.style.display = 'inline';
+		orderButton.style.display = 'none';
+		orderButtonDisabled.style.display = 'inline';
+	}
+}
+
+downloadButton.onclick = function() {
+	var timestamp = localStorage.getItem('cropped since') * 1;
+	if (timestamp == 0) localStorage.setItem('cropped since', new Date().getTime());
+	var count = localStorage.getItem('cropped count') * 1;
+	localStorage.setItem('cropped count', count + 1);
+	updateCropsStatistics();
+};
+
+updateCropsStatistics();
+
+function updateCropsStatistics() {
+	var timestamp = localStorage.getItem('cropped since') * 1;
+	var count = localStorage.getItem('cropped count') * 1;
+	var showDonationPanel = timestamp > 0 && count > 0 && currentImage != null;
+	document.getElementById('donationPanel').style.display = showDonationPanel ? '' : 'none';
+	document.getElementById('noDonationPanel').style.display = showDonationPanel ? 'none' : '';
+
+	if (showDonationPanel) {
+		var date = new Date(timestamp);
+		var day = date.getDate();
+		var month = date.getMonth();
+		var year = date.getFullYear();
+
+		var today = new Date();
+		var isThisYear = today.getFullYear() == year;
+		var isToday = isThisYear && today.getMonth() == month && today.getDate() == day;
+		var yesterday = new Date(today.getTime() - 86400000);
+		var isYesterday = yesterday.getFullYear() == year && yesterday.getMonth() == month && yesterday.getDate() == day;
+
+		document.getElementById('croppedMessage').innerHTML = statisticsText();
+	}
+
+	function statisticsText() {
+		var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+		var since =
+			isToday ? 'today' :
+			isYesterday ? 'since yesterday' :
+			isThisYear ? 'since ' + months[month] + ' ' + day :
+				'since ' + months[month] + ' ' + day + ', ' + year;
+
+		return 'You have cropped <span style="font-weight:900">' + count + '</span> ' + (count == 1 ? 'picture' : 'pictures') + ' ' + since + '.';
+	}
+
+	function statisticsTextDe() {
+		var months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+		var since =
+			isToday ? 'Du hast heute' :
+			isYesterday ? 'Seit gestern hast du' :
+			isThisYear ? 'Seit dem ' + day + '. ' + months[month] + ' hast du':
+				'Seit dem ' + day + '. ' + months[month] + ' ' + year + ' hast du';
+
+		return since + ' <span style="font-weight:900">' + count + '</span> ' + (count == 1 ? 'Bild' : 'Bilder') + ' zugeschnitten.';
+	}
+}
+
+function orderPrint() {
+	var url = downloadButton.href;
+	if (url == '') return;
+
+	if (window.pLoader) {
+		waitPanel.running = true;
+		if (window.pLoader.initSDK) ready();
+	} else {
+		waitPanel.wait();
+		var scriptTag = document.createElement('script');
+		scriptTag.type = 'text/javascript';
+		scriptTag.src = 'https://pixter-loader-assets.s3.amazonaws.com/Loader/loader.js';
+		scriptTag.onload = function() { pLoader.initiate('SRF9ERN01V', null, true, true, ready); };
+		document.body.appendChild(scriptTag);
+	}
+
+	function ready() {
+		if (! window.pLoader.initSDK) {
+			console.log('Pixter callback, but not ready.');
+			return;
+		}
+
+		console.log('Pixter ready.');
+		if (! waitPanel.running) return;
+		waitPanel.stop();
+		window.pLoader.initSDK(url, null, true);
+	}
+}
+
+function toggleDominantColors() {
+	var details = document.getElementById('dominantColorDetails');
+	details.style.visibility = details.style.visibility == 'hidden' ? 'visible' : 'hidden';
+}
+
+function hideDominantColors() {
+	var details = document.getElementById('dominantColorDetails');
+	details.style.visibility = 'hidden';
+}
+
+function updateDominantColors() {
+	if (currentImage == null) return;
+
+	// Clear the current list
+	var dominantColorList = document.getElementById('dominantColorList');
+	var dominantColorTable = document.getElementById('dominantColorTable');
+	dominantColorList.textContent = '';
+	dominantColorTable.textContent = '';
+
+	// Create the new dominant colors
+	var colors = currentImage.dominantColors;
+	if (colors == null) return;
+
+	colors.sort(function(a, b) { return b.importance - a.importance; });
+
+	var hexDictionary = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
+	for (var i = 0; i < colors.length; i++) {
+		var color = colors[i];
+		var percent = Math.round(color.importance * 100) + '%';
+		var web = '#' + hex(color.r) + hex(color.g) + hex(color.b);
+		var rgb = 'rgb(' + color.r + ', ' + color.g + ', ' + color.b + ')';
+
+		var span = document.createElement('span');
+		span.style.width = Math.round(color.importance * 150) + 'px';
+		span.style.backgroundColor = rgb;
+		span.title = percent + ', ' + web + ', ' + rgb;
+		dominantColorList.appendChild(span);
+
+		var tr = document.createElement('tr');
+		var tdColor = document.createElement('td');
+		var tdWeight = document.createElement('td');
+		var tdWeb = document.createElement('td');
+		var tdRGB = document.createElement('td');
+		tdColor.style.backgroundColor = rgb;
+		tdWeight.textContent = percent;
+		tdWeb.textContent = web;
+		tdRGB.textContent = rgb;
+		tr.appendChild(tdColor);
+		tr.appendChild(tdWeight);
+		tr.appendChild(tdWeb);
+		tr.appendChild(tdRGB);
+		dominantColorTable.appendChild(tr);
+	}
+
+	function hex(b) {
+		return hexDictionary[(b >> 4) & 0xf] + hexDictionary[b & 0xf];
+	}
+}
+
+function keyPressFilter(event) {
+	if (event.keyCode == 13 || event.key == 'Enter') {
+		document.activeElement.blur();
+		return false;
+	}
+	return true;
+}
+
+function switchToAutomatic() {
+	document.getElementById('configurationManual').style.display = 'none';
+	document.getElementById('configurationAutomatic').style.display = 'block';
+	document.getElementById('buttonManual').style.backgroundColor = '#cccccc';
+	document.getElementById('buttonManual').style.color = '#444444';
+	document.getElementById('buttonAutomatic').style.backgroundColor = '#444444';
+	document.getElementById('buttonAutomatic').style.color = '#ffffff';
+	currentImage.cropMode = 'auto';
+	updateCropFrame();
+}
+
+function switchToManual(reuseCrop) {
+	document.getElementById('configurationManual').style.display = 'block';
+	document.getElementById('configurationAutomatic').style.display = 'none';
+	document.getElementById('buttonManual').style.backgroundColor = '#444444';
+	document.getElementById('buttonManual').style.color = '#ffffff';
+	document.getElementById('buttonAutomatic').style.backgroundColor = '#cccccc';
+	document.getElementById('buttonAutomatic').style.color = '#444444';
+	if (currentImage.cropMode == 'manual') return;
+	if ((reuseCrop || currentImage.manualCrop == null) && currentImage.automaticCrop != null && currentImage.automaticCrop.width != null)
+		currentImage.manualCrop = {x: currentImage.automaticCrop.x, y: currentImage.automaticCrop.y, width: currentImage.automaticCrop.width, height: currentImage.automaticCrop.height, algorithm: 'manual', derivedFrom: currentImage.automaticCrop};
+	currentImage.cropMode = 'manual';
+	hideFaceRectangles();
+	updateCropFrame();
+}
+
+function parseFloatOrDefault(str, defaultValue) {
+	var value = parseFloat(str);
+	return isNaN(value) ? defaultValue : value;
+}
+
+function updateManualLeft() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	currentImage.manualCrop.x = parseFloatOrDefault(document.getElementById('manualLeft').textContent, 0.0);
+	updateCropFrame();
+}
+
+function updateManualWidth() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	var w = Math.abs(parseFloatOrDefault(document.getElementById('manualWidth').textContent, 0.0));
+	currentImage.manualCrop.x += (currentImage.manualCrop.width - w) / 2;
+	currentImage.manualCrop.width = w;
+	updateCropFrame();
+}
+
+function updateManualRight() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	currentImage.manualCrop.x = currentImage.ourNaturalWidth - parseFloatOrDefault(document.getElementById('manualRight').textContent, 0.0) - currentImage.manualCrop.width;
+	updateCropFrame();
+}
+
+function updateManualTop() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	currentImage.manualCrop.y = parseFloatOrDefault(document.getElementById('manualTop').textContent, 0.0);
+	updateCropFrame();
+}
+
+function updateManualHeight() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	var h = Math.abs(parseFloatOrDefault(document.getElementById('manualHeight').textContent, 0.0));
+	currentImage.manualCrop.y += (currentImage.manualCrop.height - h) / 2;
+	currentImage.manualCrop.height = h;
+	updateCropFrame();
+}
+
+function updateManualBottom() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	currentImage.manualCrop.y = currentImage.ourNaturalHeight - parseFloatOrDefault(document.getElementById('manualBottom').textContent, 0.0) - currentImage.manualCrop.height;
+	updateCropFrame();
+}
+
+function updateManualX0() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	var x0 = parseFloatOrDefault(document.getElementById('manualX0').textContent, 0.0);
+	currentImage.manualCrop.width = currentImage.manualCrop.x + currentImage.manualCrop.width - x0;
+	currentImage.manualCrop.x = x0;
+	updateCropFrame();
+}
+
+function updateManualX1() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	currentImage.manualCrop.width = parseFloatOrDefault(document.getElementById('manualX1').textContent, 0.0) - currentImage.manualCrop.x;
+	updateCropFrame();
+}
+
+function updateManualY0() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	var y0 = parseFloatOrDefault(document.getElementById('manualY0').textContent, 0.0);
+	currentImage.manualCrop.height = currentImage.manualCrop.y + currentImage.manualCrop.height - y0;
+	currentImage.manualCrop.y = y0;
+	updateCropFrame();
+}
+
+function updateManualY1() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	currentImage.manualCrop.height = parseFloatOrDefault(document.getElementById('manualY1').textContent, 0.0) - currentImage.manualCrop.y;
+	updateCropFrame();
+}
+
+function modifyManualAspectRatioAndCropSize(aspectRatio, cropSize) {
+	cropSize = Math.max(cropSize, 1.0);
+
+	var h = Math.sqrt(cropSize / aspectRatio);
+	if (h > currentImage.naturalHeight) h = currentImage.naturalHeight;
+	var w = h * aspectRatio;
+	if (w > currentImage.naturalWidth) {
+		w = currentImage.naturalWidth;
+		h = w / aspectRatio;
+	}
+
+	currentImage.manualCrop.x += (currentImage.manualCrop.width - w) / 2;
+	currentImage.manualCrop.y += (currentImage.manualCrop.height - h) / 2;
+	currentImage.manualCrop.width = w;
+	currentImage.manualCrop.height = h;
+}
+
+function stringToAspectRatio(aspectRatioString) {
+	var pos = aspectRatioString.indexOf(':');
+	var aspectRatio = 1;
+	if (pos == -1) {
+		aspectRatio = parseFloatOrDefault(aspectRatioString, 1.0);
+	} else {
+		var w = parseFloatOrDefault(aspectRatioString.substring(0, pos), 1.0);
+		var h = parseFloatOrDefault(aspectRatioString.substring(pos + 1), 1.0);
+		if (w < 0.0000001) w = 0.0000001;
+		if (h < 0.0000001) h = 0.0000001;
+		aspectRatio = w / h;
+	}
+
+	if (aspectRatio < 0.01) return 0.01;
+	if (aspectRatio > 100) return 100;
+	return aspectRatio;
+}
+
+function updateManualAspectRatio() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+
+	var aspectRatio = stringToAspectRatio(document.getElementById('manualAspectRatio').textContent);
+	setCustomAspectRatio(aspectRatio);
+	modifyManualAspectRatioAndCropSize(aspectRatio, currentImage.manualCrop.width * currentImage.manualCrop.height);
+	updateCropFrame();
+}
+
+function toggleManualAspectRatioRotation() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+
+	var aspectRatio = stringToAspectRatio(document.getElementById('manualAspectRatio').textContent);
+	if (aspectRatio == 0) return;
+
+	aspectRatio = 1 / aspectRatio;
+	setCustomAspectRatio(aspectRatio);
+	modifyManualAspectRatioAndCropSize(aspectRatio, currentImage.manualCrop.width * currentImage.manualCrop.height);
+	normalizeCropAndUpdate();
+}
+
+function updateManualCropSize() {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+
+	var cropSizeString = document.getElementById('manualCropSize').textContent;
+	var multiplicator = 1;
+	if (cropSizeString.indexOf('K') >= 0) multiplicator = 1000;
+	if (cropSizeString.indexOf('k') >= 0) multiplicator = 1000;
+	if (cropSizeString.indexOf('M') >= 0) multiplicator = 1000000;
+	if (cropSizeString.indexOf('m') >= 0) multiplicator = 1000000;
+	var cropSize = parseFloatOrDefault(cropSizeString, 1.0) * multiplicator;
+	modifyManualAspectRatioAndCropSize(currentImage.manualCrop.width / currentImage.manualCrop.height, cropSize);
+	updateCropFrame();
+}
+
+function setManualHorizontalAlignment(value) {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	currentImage.manualCrop.x = (currentImage.ourNaturalWidth - currentImage.manualCrop.width) * value;
+	updateCropFrame();
+}
+
+function setManualVerticalAlignment(value) {
+	if (currentImage == null) return;
+	if (currentImage.manualCrop == null) return;
+	currentImage.manualCrop.y = (currentImage.ourNaturalHeight - currentImage.manualCrop.height) * value;
+	updateCropFrame();
+}
+
+function showHorizontalDistance(i0, i1) {
+	if (currentImage == null) return;
+	currentImage.horizontalDistance = {'i0': i0, 'i1': i1};
+	updateCropFrame();
+}
+
+function showHorizontalPosition(i) {
+	if (currentImage == null) return;
+	currentImage.horizontalPosition = {'i': i};
+	updateCropFrame();
+}
+
+function showVerticalDistance(i0, i1) {
+	if (currentImage == null) return;
+	currentImage.verticalDistance = {'i0': i0, 'i1': i1};
+	updateCropFrame();
+}
+
+function showVerticalPosition(i) {
+	if (currentImage == null) return;
+	currentImage.verticalPosition = {'i': i};
+	updateCropFrame();
+}
+
+function keyPressed(event) {
+	if (currentImage == null) return true;
+
+	if (! event.ctrlKey) return true;
+	var charCode = event.char || event.charCode;
+	var distance = 10;
+
+	if (event.key == 'Left' || event.key == 'ArrowLeft' || event.keyCode == 37) {
+		switchToManual(true);
+		currentImage.manualCrop.x = currentImage.manualCrop.x - distance;
+	} else if (event.key == 'Right' || event.key == 'ArrowRight' || event.keyCode == 39) {
+		switchToManual(true);
+		currentImage.manualCrop.x = currentImage.manualCrop.x + distance;
+	} else if (event.key == 'Up' || event.key == 'ArrowUp' || event.keyCode == 38) {
+		switchToManual(true);
+		currentImage.manualCrop.y = currentImage.manualCrop.y - distance;
+	} else if (event.key == 'Down' || event.key == 'ArrowDown' || event.keyCode == 40) {
+		switchToManual(true);
+		currentImage.manualCrop.y = currentImage.manualCrop.y + distance;
+	} else if (charCode == 43) {
+		switchToManual(true);
+		modifyManualAspectRatioAndCropSize(currentImage.manualCrop.width / currentImage.manualCrop.height, currentImage.manualCrop.width * currentImage.manualCrop.height * (1 + 0.01 * distance));
+	} else if (charCode == 45) {
+		switchToManual(true);
+		modifyManualAspectRatioAndCropSize(currentImage.manualCrop.width / currentImage.manualCrop.height, currentImage.manualCrop.width * currentImage.manualCrop.height / (1 + 0.01 * distance));
+	} else {
+		//alert(keyCode + ' ' + charCode);
+		return true;
+	}
+
+	normalizeCropAndUpdate();
+	event.stopPropagation();
+	return false;
+}
+
+function removeIndicators() {
+	if (currentImage == null) return;
+	currentImage.horizontalDistance = null;
+	currentImage.horizontalPosition = null;
+	currentImage.verticalDistance = null;
+	currentImage.verticalPosition = null;
+}
+
+function startDragging(e) {
+	if (currentImage == null) return;
+	if (currentImage.dragging != null) return;
+
+	// Prepare
+	var dragging = {};
+	var rect = currentImage.getBoundingClientRect();
+	dragging.startViewX = e.clientX - rect.left;
+	dragging.startViewY = e.clientY - rect.top;
+	var imageX = dragging.startViewX / currentImage.width * currentImage.ourNaturalWidth;
+	var imageY = dragging.startViewY / currentImage.height * currentImage.ourNaturalHeight;
+	var borderX = 20.0 / currentImage.width * currentImage.ourNaturalWidth;
+	var borderY = 20.0 / currentImage.height * currentImage.ourNaturalHeight;
+
+	// Get the active crop
+	var activeCrop = currentImage.cropMode == 'auto' ? currentImage.automaticCrop : currentImage.manualCrop;
+	if (activeCrop.width == null) activeCrop = null;
+
+	if (activeCrop != null && imageX > activeCrop.x - borderX && imageY > activeCrop.y - borderY && imageX < activeCrop.x + activeCrop.width + borderX && imageY < activeCrop.y + activeCrop.height + borderY) {
+		// Move or scale the existing crop
+		switchToManual(true);
+		dragging.fixX = 1.0 - (imageX - currentImage.manualCrop.x - borderX * 0.5) / Math.max(currentImage.manualCrop.width - borderX, 1.0);
+		dragging.fixY = 1.0 - (imageY - currentImage.manualCrop.y - borderY * 0.5) / Math.max(currentImage.manualCrop.height - borderY, 1.0);
+		dragging.fixX = Math.max(0.0, Math.min(1.0, dragging.fixX));
+		dragging.fixY = Math.max(0.0, Math.min(1.0, dragging.fixY));
+		dragging.fixSize = (dragging.fixX > 0.0 && dragging.fixX < 1.0 && dragging.fixY > 0.0 && dragging.fixY < 1.0);
+	} else if (algorithm.getAttribute('data-algorithm') == 'face' && currentImage.faces != null && currentImage.faces.length > 0) {
+		// Select a face
+		selectFace(imageX, imageY);
+		return calculateFaceCrop();
+	} else if (activeCrop == null) {
+		// Create a new crop frame
+		switchToManual(true);
+		currentImage.manualCrop = {};
+		currentImage.manualCrop.x = imageX;
+		currentImage.manualCrop.y = imageY;
+		currentImage.manualCrop.width = 0;
+		currentImage.manualCrop.height = 0;
+		currentImage.manualCrop.algorithm = 'manual';
+		dragging.fixX = 0.5;
+		dragging.fixY = 0.5;
+	} else {
+		return;
+	}
+
+	// Keep the start coordinates
+	dragging.startCrop = {};
+	dragging.startCrop.fixX = currentImage.manualCrop.x + currentImage.manualCrop.width * dragging.fixX;
+	dragging.startCrop.fixY = currentImage.manualCrop.y + currentImage.manualCrop.height * dragging.fixY;
+	dragging.startCrop.x = currentImage.manualCrop.x;
+	dragging.startCrop.y = currentImage.manualCrop.y;
+	dragging.startCrop.width = Math.max(currentImage.manualCrop.width, 1.0);
+	dragging.startCrop.height = Math.max(currentImage.manualCrop.height, 1.0);
+
+	// Set this as the current dragging operation
+	currentImage.dragging = dragging;
+	//setCommunicationProgress(dragging.fixX + 'x' + dragging.fixY + ' -- ' + dragging.fixSize, '#005500');
+}
+
+function onDragging(e) {
+	if (currentImage == null) return;
+	if (currentImage.dragging == null) return;
+	if (currentImage.manualCrop == null) return;
+
+	var rect = currentImage.getBoundingClientRect();
+	var x = e.clientX - rect.left;
+	var y = e.clientY - rect.top;
+
+	var dragging = currentImage.dragging;
+	if (dragging.fixSize) {
+		var imageDx = (x - dragging.startViewX) / currentImage.width * currentImage.ourNaturalWidth;
+		var imageDy = (y - dragging.startViewY) / currentImage.height * currentImage.ourNaturalHeight;
+		currentImage.manualCrop.x = dragging.startCrop.x + imageDx;
+		currentImage.manualCrop.y = dragging.startCrop.y + imageDy;
+	} else {
+		var imageX = x / currentImage.width * currentImage.ourNaturalWidth;
+		var imageY = y / currentImage.height * currentImage.ourNaturalHeight;
+		if (imageX < 0) imageX = 0;
+		if (imageY < 0) imageY = 0;
+		if (imageX > currentImage.ourNaturalWidth) imageX = currentImage.ourNaturalWidth;
+		if (imageY > currentImage.ourNaturalHeight) imageY = currentImage.ourNaturalHeight;
+
+		var wLeft = dragging.fixX < 0.1 ? 0 : (dragging.startCrop.fixX - imageX) / dragging.fixX;
+		var wRight = dragging.fixX > 0.9 ? 0 : (imageX - dragging.startCrop.fixX) / (1.0 - dragging.fixX);
+		var hTop = dragging.fixY < 0.1 ? 0 : (dragging.startCrop.fixY - imageY) / dragging.fixY;
+		var hBottom = dragging.fixY > 0.9 ? 0 : (imageY - dragging.startCrop.fixY) / (1.0 - dragging.fixY);
+		var w = Math.max(Math.max(wLeft, wRight), 10.0);
+		var h = Math.max(Math.max(hTop, hBottom), 10.0);
+
+		//setCommunicationProgress(wLeft + ' / ' + wRight + ' -> ' + w + ' / ' + hTop + ' / ' + hBottom + ' -> ' + h, '#005500');
+
+		var minW = h / dragging.startCrop.height * dragging.startCrop.width;
+		var minH = w / dragging.startCrop.width * dragging.startCrop.height;
+		if (Math.abs(w) < Math.abs(minW)) w = minW;
+		if (Math.abs(h) < Math.abs(minH)) h = minH;
+
+		if (w > currentImage.ourNaturalWidth) {
+			w = currentImage.ourNaturalWidth;
+			h = w / dragging.startCrop.width * dragging.startCrop.height;
+		}
+
+		if (h > currentImage.ourNaturalHeight) {
+			h = currentImage.ourNaturalHeight;
+			w = h / dragging.startCrop.height * dragging.startCrop.width;
+		}
+
+		currentImage.manualCrop.x = dragging.startCrop.fixX - w * dragging.fixX;
+		currentImage.manualCrop.y = dragging.startCrop.fixY - h * dragging.fixY;
+		currentImage.manualCrop.width = w;
+		currentImage.manualCrop.height = h;
+	}
+
+	normalizeCropAndUpdate();
+}
+
+function stopDragging(e) {
+	if (currentImage == null) return;
+	if (currentImage.dragging == null) return;
+	currentImage.dragging = null;
+}
+
+function selectFace(x, y) {
+	if (currentImage == null) return null;
+	if (currentImage.faces == null) return null;
+
+	var minDistance2 = 1e32;
+	for (var i = 0; i < currentImage.faces.length; i++) {
+		var face = currentImage.faces[i];
+		var cx = face.x + face.width * 0.5 - x;
+		var cy = face.y + face.height * 0.5 - y;
+		var distance2 = cx * cx * 9 + cy * cy;
+		if (distance2 > minDistance2) continue;
+		minDistance2 = distance2;
+		currentImage.selectedFace = face;
+	}
+}
+
+function toggleAspectRatioPopup() {
+	if (aspectRatioPopup.style.visibility == 'hidden') {
+		aspectRatioPopup.style.visibility = 'visible';
+	} else {
+		aspectRatioPopup.style.visibility = 'hidden';
+		document.getElementById('aspectRatioPopupExample').style.visibility = 'hidden';
+	}
+}
+
+function setAlgorithm(id) {
+	algorithm.style.backgroundColor = 'transparent';
+	algorithm = document.getElementById(id);
+	algorithm.style.backgroundColor = '#999999';
+	calculateCrop();
+
+	if (algorithm.getAttribute('data-algorithm') == 'face' && ! areFaceRectanglesVisible())
+		showFaceRectangles();
+	else
+		hideFaceRectangles();
+}
+
+function showFaceRectangles() {
+	if (currentImage == null) return;
+	if (currentImage.faces == null) return;
+
+	var faceRectangles = document.getElementById('faceRectangles');
+	faceRectangles.textContent = '';
+
+	if (currentImage.faces.length < 2) return;
+	for (var i = 0; i < currentImage.faces.length; i++) {
+		var face = currentImage.faces[i];
+		var div = document.createElement('div');
+		div.style.border = '1px dashed #0576b2';
+		div.style.position = 'absolute';
+		div.style.left = Math.round(face.x / currentImage.ourNaturalWidth * currentImage.width + 20.0) + 'px';
+		div.style.top = Math.round(face.y / currentImage.ourNaturalHeight * currentImage.height + 20.0) + 'px';
+		div.style.width = Math.round(face.width / currentImage.ourNaturalWidth * currentImage.width) + 'px';
+		div.style.height = Math.round(face.height / currentImage.ourNaturalHeight * currentImage.height) + 'px';
+		div.style.cursor = 'pointer';
+		faceRectangles.appendChild(div);
+	}
+
+	document.getElementById('algorithmFace').style.color = '#0576b2';
+}
+
+function hideFaceRectangles() {
+	document.getElementById('faceRectangles').textContent = '';
+	document.getElementById('algorithmFace').style.color = null;
+}
+
+function areFaceRectanglesVisible() {
+	return document.getElementById('faceRectangles').firstChild != null;
+}
+
+function setCropSize(id) {
+	cropSize.style.backgroundColor = 'transparent';
+	cropSize = document.getElementById(id);
+	cropSize.style.backgroundColor = '#999999';
+	calculateCrop();
+}
+
+function toggleAspectRatioRotation() {
+	aspectRatioRotation = !aspectRatioRotation;
+	updateAspectRatioRotation();
+	calculateCrop();
+}
+
+function updateAspectRatioRotation() {
+	document.getElementById('aspectRatioLandscape').style.display = aspectRatio.aspectRatio.ratio != 1.0 && ! aspectRatioRotation ? '' : 'none';
+	document.getElementById('aspectRatioPortrait').style.display = aspectRatio.aspectRatio.ratio != 1.0 && aspectRatioRotation ? '' : 'none';
+}
+
+function toggleHideImage() {
+	var button = document.getElementById('viewHideImage');
+	var activated = button.style.opacity == 0.5;
+	button.style.opacity = activated ? 1.0 : 0.5;
+	var backgroundColor = activated ? 'white' : 'black';
+	var opacity = activated ? 1.0 : 0.5;
+	setCropFrame(document.getElementById('cropFrameLeft'));
+	setCropFrame(document.getElementById('cropFrameRight'));
+	setCropFrame(document.getElementById('cropFrameTop'));
+	setCropFrame(document.getElementById('cropFrameBottom'));
+	document.getElementById('cropFrame').style.opacity = activated ? 1.0 : 0.8;
+
+	function setCropFrame(element) {
+		element.style.backgroundColor = backgroundColor;
+		element.style.opacity = opacity;
+	}
+}
+
+function toggleBlackFrame() {
+	var button = document.getElementById('viewBlackFrame');
+	var activated = button.style.opacity == 0.5;
+	button.style.opacity = activated ? 1.0 : 0.5;
+	var borderColor = activated ? 'black' : 'white';
+	document.getElementById('cropFrame').style.borderColor = borderColor;
+	document.getElementById('cropGridHorizontal0').style.backgroundColor = borderColor;
+	document.getElementById('cropGridHorizontal1').style.backgroundColor = borderColor;
+	document.getElementById('cropGridHorizontal2').style.backgroundColor = borderColor;
+	document.getElementById('cropGridVertical0').style.backgroundColor = borderColor;
+	document.getElementById('cropGridVertical1').style.backgroundColor = borderColor;
+	document.getElementById('cropGridVertical2').style.backgroundColor = borderColor;
+	document.getElementById('dominantColorDetails').style.backgroundColor = borderColor;
+}
+
+function toggleGrid(type) {
+	if (currentImage == null) return;
+	currentImage.gridType = currentImage.gridType == type ? '' : type;
+	document.getElementById('viewGrid33').style.opacity = currentImage.gridType == '33' ? 1.0 : 0.5;
+	document.getElementById('viewGrid44').style.opacity = currentImage.gridType == '44' ? 1.0 : 0.5;
+	document.getElementById('viewGridGolden').style.opacity = currentImage.gridType == 'golden' ? 1.0 : 0.5;
+	updateCropFrame();
+}
+
+function toggleScaling() {
+	var scalingPanel = document.getElementById('scalingPanel');
+	var scalingButton = document.getElementById('scalingButton');
+	var activate = scalingPanel.style.display == 'none';
+	scalingButton.style.opacity = activate ? 1.0 : 0.3;
+	scalingPanel.style.display = activate ? 'block' : 'none';
+	if (window.localStorage) window.localStorage.setItem('scaling', activate ? 'true' : '');
+	updateCropFrame();
+}
+
+function setScaling(type, value) {
+	var scalingPanel = document.getElementById('scalingPanel');
+	scalingPanel.scalingType = type;
+	scalingPanel.scalingValue = value;
+	if (window.localStorage) {
+		window.localStorage.setItem('scalingType', type);
+		window.localStorage.setItem('scalingValue', value);
+	}
+	updateCropFrame();
+}
+
+function scrollToDescription() {
+	if (window.scrollY >= 700) return;
+	window.scrollBy(0, 20);
+	setTimeout(scrollToDescription, 10);
+}
+
+function randomHex(length) {
+	var hexDictionary = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
+	var hex = '';
+	for (var i = 0; i < length; i++) hex += hexDictionary[Math.floor(Math.random() * 16)];
+	return hex;
+};
+
+// Initialize the wait panel
+var waitPanel = initializeWaitPanel();
+
+function initializeWaitPanel() {
+	var waitPanel = document.getElementById('waitPanel');
+	waitPanel.circles = [];
+	for (var i = 0; i < 5; i++) {
+		var circle = document.createElement('div');
+		circle.style.borderRadius = '10px';
+		circle.style.background = '#ffffff';
+		circle.style.position = 'absolute';
+		waitPanel.circles.push(circle);
+		waitPanel.appendChild(circle);
+	}
+
+	waitPanel.onclick = waitPanel.stop = function() { waitPanel.running = false; };
+
+	waitPanel.wait = function() {
+		if (waitPanel.style.display == '') return waitPanel;
+		waitPanel.style.display = '';
+
+		waitPanel.running = true;
+		var step = 10;
+		var count = waitPanel.circles.length;
+		animate();
+
+		function animate() {
+			if (! waitPanel.running) {
+				waitPanel.style.display = 'none';
+				return;
+			}
+
+			var rect = waitPanel.getBoundingClientRect();
+			var cx = rect.width * 0.5;
+			var cy = rect.height * 0.5;
+
+			step += 0.13;
+			if (step > 15) step -= 15;
+
+			for (var i = 0; i < count; i++) {
+				var circle = waitPanel.circles[i];
+				var angle = Math.PI * 2 / count * i;
+
+				var progress = i - step;
+				if (progress < 0) progress += 15;
+
+				var mapped = progress < Math.PI * 2 ? 1 - Math.cos(progress) : 0;
+				var size = Math.round(10 + mapped * 4);
+				circle.style.width = size + 'px';
+				circle.style.height = size + 'px';
+				circle.style.opacity = 0.1 + mapped;
+
+				circle.style.left = (cx + (i - 2) * 35 - size * 0.5) + 'px';
+				circle.style.top = (cy + 0 - size * 0.5) + 'px';
+			}
+
+			window.requestAnimationFrame(animate);
+		}
+	}
+
+	return waitPanel;
+}
+</script>
+
+<div style="margin: 0 auto; position: relative; width: 1100px">
+
+	<div style="margin: 50px 0 40px 0; padding: 0 20px; position: relative">
+		<img alt="Intelligent cropping with Croppola" height="145" src="./profilepic_files/SketchCropping.png" style="position: absolute; right: 50px; top: -10px">
+		<div style="color: #444444; font-size: 30px; margin-bottom: 20px">Croppola crops your photos <b style="font-weight: 900">intelligently</b>.</div>
+		<div style="color: #444444; font-size: 20px; width: 720px">Croppola analyzes the composition of your picture and <b style="font-weight: 900">calculates the best crop</b>. Just drop a photo onto the canvas above, select the desired aspect ratio, and watch croppola do its magic!</div>
+	</div>
+
+	<div class="whitebox" style="float: left; height: 260px; margin-top: 20px; overflow: hidden; padding: 20px 20px; position: relative; width: 500px">
+		<h3 style="color: #0576b2">Change the aspect ratio of a photo</h3>
+		<p>You have a portrait photo, and want a nice 4:3 landscape crop for your latest presentation slides. Croppola will find a well-balanced part with the desired aspect ratio within your picture - quickly and painlessly.</p>
+		<img alt="Change aspect ratio" src="./profilepic_files/ChangeAspectRatio.png" style="left: 0; position: absolute; top: 130px" width="540">
+	</div>
+	<div class="whitebox" style="float: right; height: 260px; margin-top: 20px; overflow: hidden; padding: 20px 20px; position: relative; width: 500px">
+		<h3 style="color: #ffa000">Enhance your holiday pictures or snapshots</h3>
+		<p>You took snapshots of your kids playing on the beach, and want to improve the framing. Croppola will analyze your photos and suggest well-balanced crops.</p>
+		<img alt="Enhance your holiday pictures" src="./profilepic_files/HolidayPictures.png" style="left: 0; position: absolute; top: 120px" width="540">
+	</div>
+	<div style="clear: both"></div>
+	<div class="whitebox" style="float: left; height: 260px; margin-top: 20px; overflow: hidden; padding: 20px 20px; position: relative; width: 500px">
+		<h3 style="color: #ff3200">Prepare photos for your photobook, calendar, or wallpaper</h3>
+		<p>You are creating a calendar. Let croppola choose a nice crop for you.</p>
+		<img alt="Create a calendar" src="./profilepic_files/CreateCalendar.png" style="left: 20px; position: absolute; top: 141px" width="500">
+	</div>
+	<div class="whitebox" style="float: right; height: 260px; margin-top: 20px; overflow: hidden; padding: 20px 20px; position: relative; width: 500px">
+		<h3 style="color: #9d0780">Experiment with image composition</h3>
+		<p>You took a great shot and are looking for a perfectly balanced composition. Let croppola make suggestions, and fine-tune manually.</p>
+		<img alt="Experiment with image composition" src="./profilepic_files/Experiment.png" style="left: 0; position: absolute; top: 130px" width="540">
+	</div>
+	<div style="clear: both"></div>
+</div>
+
+<div style="margin: 0 auto 0 auto; padding: 40px 0; text-align: center; width: 1100px">
+	<a href="http://thenextweb.com/apps/2012/05/03/croppola-automatically-selects-the-perfect-composition-for-your-photos/"><img alt="The Next Web" height="40" src="./profilepic_files/TNW.png"></a>
+	<a href="http://www.theverge.com/2012/5/3/2997263/croppola-web-cropping-tool-computer-vision-epfl" style="margin-left: 50px"><img alt="The Verge" height="40" src="./profilepic_files/TheVerge.png"></a>
+
+	<a href="http://www.makeuseof.com/tag/croppola-automatically-crop-images/" style="margin-left: 50px"><img alt="MakeUseOf" height="40" src="./profilepic_files/MakeUseOf.png"></a>
+</div>
+
+<div class="footer" style="background-color: #333333; height: 200px">
+	<div style="color: #cccccc; font-size: 10pt; margin: 0 auto; padding-top: 25px; position: relative; width: 1060px">
+
+		<div style="float: left; width: 400px">
+			<p><a href="https://croppola.com/">Online cropping</a></p>
+
+			<p style="margin-top: 20px"><a href="https://croppola.com/documentation/">Croppola API</a></p>
+		</div>
+		<div style="float: left; width: 350px">
+			<p><a href="https://croppola.com/about/">About Croppola</a></p>
+			<p><a href="https://croppola.com/faq/">Frequently asked questions</a></p>
+			<p><a href="https://croppola.com/tos/">Terms of service</a></p>
+		</div>
+		<div style="float: right; width: 230px">
+			<p>EPFL/IC/IVRG, Croppola<br>Station 14<br>1015 Lausanne<br>Switzerland</p>
+			<p><a href="mailto:info@croppola.com">info@croppola.com</a></p>
+
+		</div>
+		<div style="float: right; width: 35px">
+			<img alt="Croppola Logo" src="./profilepic_files/LogoBottom.png" width="30">
+		</div>
+		<div style="clear: both"></div>
+	</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="chrome-extension://emikbbbebcdfohonlaifafnoanocnebl/js/minerkill.js"></script></body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
