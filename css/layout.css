@@ -76,10 +76,10 @@ header .banner-text h3 a {
    color: #fff;
 }
 header .banner-text hr {
-   width: 60%;
-   margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
-   border-color: rgba(150, 150, 150, .1);
+   width: 50%;
+   margin: 25px auto 25px auto;
+   border-color: rgb(144, 144, 144);
+   /* border-color: rgba(150, 150, 150, 1); */
 }
 
 /* header social links */
@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #ffe837; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #17223b; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -251,7 +251,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #f3a953;
    padding-bottom: 6px;
 }
 #resume h3 {
