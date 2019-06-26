@@ -327,13 +327,13 @@ ul#nav li.current a { color: #F06000; }
 
 .python {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
 .candcpp {
   	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: candcpp 2s ease;
+  	-webkit-animation: candcpp 2s ease;
 }
 .wordpress {
   	width: 50%;
@@ -830,7 +830,7 @@ call-to-action .button {
 #contact h2.lead {
    font: 30px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
-   color: #ff6768
+   color: #e75d41
 }
 #contact .header-col { padding-top: 6px; }
 
@@ -850,7 +850,7 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #373233;
+	background: #393e46;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -862,7 +862,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #33313b;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -892,7 +892,7 @@ call-to-action .button {
    width: 65%;
    margin-left: 26%;
 }
-#message-warning { color: #D72828; }
+#message-warning { color: rgb(192, 0, 0); }
 #message-success { color: #11ABB0; }
 
 #message-warning i,
